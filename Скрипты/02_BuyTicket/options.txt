@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\askar\Desktop\applana\Скрипты\02_BuyTicket_numPass
+-ID:\appline\LoadRunner\include
+-ec:\users\askar\desktop\applana\скрипты\02_buyticket_numpass\\logfile.log
+c:\users\askar\desktop\applana\скрипты\02_buyticket_numpass\\combined_02_BuyTicket_numPass.c
+c:\users\askar\desktop\applana\скрипты\02_buyticket_numpass\\pre_cci.c

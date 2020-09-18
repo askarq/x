@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\askar\Desktop\applana\Скрипты\03_Choose_Flight
+-ID:\appline\LoadRunner\include
+-ec:\users\askar\desktop\applana\скрипты\03_choose_flight\\logfile.log
+c:\users\askar\desktop\applana\скрипты\03_choose_flight\\combined_03_Choose_Flight.c
+c:\users\askar\desktop\applana\скрипты\03_choose_flight\\pre_cci.c

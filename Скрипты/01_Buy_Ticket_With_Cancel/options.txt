@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\askar\Desktop\applana\Скрипты\01_BuyCancelTicket_test
+-ID:\appline\LoadRunner\include
+-ec:\users\askar\desktop\applana\скрипты\01_buycancelticket_test\\logfile.log
+c:\users\askar\desktop\applana\скрипты\01_buycancelticket_test\\combined_01_BuyCancelTicket_test.c
+c:\users\askar\desktop\applana\скрипты\01_buycancelticket_test\\pre_cci.c
