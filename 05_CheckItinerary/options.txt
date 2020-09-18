@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\askar\Desktop\applana\Скрипты\05_CheckItinerary
--ID:\appline\LoadRunner\include
--ec:\users\askar\desktop\applana\скрипты\05_checkitinerary\\logfile.log
-c:\users\askar\desktop\applana\скрипты\05_checkitinerary\\combined_05_CheckItinerary.c
-c:\users\askar\desktop\applana\скрипты\05_checkitinerary\\pre_cci.c
