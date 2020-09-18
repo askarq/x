@@ -1,0 +1,354 @@
+[API Trapper      (1b94: 9a8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 620:15e8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (19fc:1638)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (19fc: 180)] ------------------------------------------------------------------------------------------
+[Network Analyzer (19fc: 180)] Load Network Traffic Analyzers:
+[Network Analyzer (19fc: 180)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (19fc: 180)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (19fc: 180)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (19fc: 180)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (19fc: 180)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (19fc: 180)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (19fc: 180)] ------------------------------------------------------------------------------------------
+[Network Analyzer (19fc:1518)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 178.62.247.171:80   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 178.62.247.171:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 64.233.165.84:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 74.125.205.97:443   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (19fc:1518)] "GET /api/v1/"   
+[Network Analyzer (19fc:1518)]   (Sid:  1) Client -> Server @ : 414 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  1) Server -> Client : 431 bytes  (Service=HTTP)
+[Network Analyzer (19fc:114c)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (19fc:2d10)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:2d70)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc:1518)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (19fc:114c)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc:2d10)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc:2d70)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc:1518)]   (Sid:  3) Client -> Server @ : 1943 bytes (SSL)(Service=HTTP)
+[Web Request      (19fc:1518)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (19fc:1518)]   (Sid:  3) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 173.194.222.95:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (19fc: ed0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc: 694)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:1518)]   (Sid:  3) Server -> Client : 1675 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  3) Server -> Client : 326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  3) Server -> Client : 87 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (19fc: ed0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc: 694)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc:1518)]   (Sid:  6) Client -> Server @ : 754 bytes (SSL)(Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours"   
+[Network Analyzer (19fc:1518)]   (Sid:  7) Client -> Server @ : 527 bytes (Service=HTTP)
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 173.194.220.94:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (19fc:1518)] "POST /v1/issuetoken"   
+[Network Analyzer (19fc:1518)]   (Sid:  6) Client -> Server @ : 653 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  7) Server -> Client : 506 bytes  (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc:11a8)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:1518)]   (Sid:  6) Server -> Client : 1398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  6) Server -> Client : 9 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 74.125.205.155:443   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (19fc:1518)] "GET /WebTours/"   
+[Network Analyzer (19fc:1518)]   (Sid:  7) Client -> Server @ : 528 bytes (Service=HTTP)
+[Network Analyzer (19fc:11a8)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc:1518)]   (Sid:  7) Server -> Client : 663 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=85"   
+[Network Analyzer (19fc:1518)]   (Sid:  8) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  8) Server -> Client : 379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:10a8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:10a8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (19fc:1518)] "GET /WebTours/header.html"   
+[Network Analyzer (19fc:1518)]   (Sid:  7) Client -> Server @ : 565 bytes (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /settings/do_ad_settings_allow_floc_poc"   
+[Network Analyzer (19fc:1518)]   (Sid:  9) Client -> Server @ : 1219 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  7) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  9) Server -> Client : 1543 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  9) Server -> Client : 269 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc:1518)]   (Sid:  7) Connection Terminated (by Server)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (19fc:1518)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (19fc:1518)]   (Sid: 10) Client -> Server @ : 576 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 10) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc:1518)]   (Sid: 10) Connection Terminated (by Server)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (19fc:1518)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (19fc:1518)]   (Sid: 11) Client -> Server @ : 467 bytes (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (19fc:1518)]   (Sid: 12) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 11) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 12) Server -> Client : 4487 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (19fc:1518)]   (Sid: 12) Client -> Server @ : 617 bytes (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/home.html"   
+[Network Analyzer (19fc:1518)]   (Sid: 11) Client -> Server @ : 613 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 11) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 12) Server -> Client : 1750 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 12) Client -> Server @ : 499 bytes (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc:1518)]   (Sid: 12) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (19fc:1518)] "GET /favicon.ico"   
+[Network Analyzer (19fc:1518)]   (Sid: 12) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 12) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (19fc:2240)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:2240)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Web Request      (19fc:1518)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCU35IjnBRbgwEgkN541ADhIAGgASCQ3OQUx6EgAaAA==?alt=proto"   
+[Network Analyzer (19fc:1518)]   (Sid: 13) Client -> Server @ : 539 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (19fc:1518)]   (Sid: 13) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 64.233.165.138:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 173.194.222.188:5228   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (19fc:13c4)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:13c4)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      ( 2bc: 24c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Web Request      (19fc:1518)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=85.0.4183.102&lang=ru&acceptformat=crx3&x=id%3Dildilgiiijjkiadbdcgcdjgeogfbpdkh%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D1%2526e%253D0%2526dr%253D1"   
+[Network Analyzer (19fc:1518)]   (Sid: 15) Client -> Server @ : 767 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (19fc: 470)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc: 470)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc:321c)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:1518)]   (Sid: 16) Client -> Server @ : 155 bytes (SSL)
+[Network Analyzer (19fc:1518)]   (Sid: 15) Server -> Client : 866 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 15) Server -> Client : 518 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 15) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:321c)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc:1518)]   (Sid: 17) Client -> Server @ : 1360 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 16) Server -> Client : 1 bytes (SSL)
+[Web Request      (19fc:1518)] "POST /service/update2/json?cup2key=10:2611698045&cup2hreq=ead9a515775dd4a6cab62e3dac2c579dba31ee067f20e42b4943d6c882c10b07"   
+[Network Analyzer (19fc:1518)]   (Sid: 17) Client -> Server @ : 6693 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 16) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (19fc:1518)]   (Sid: 16) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (19fc:1518)]   (Sid: 17) Server -> Client : 1326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 17) Server -> Client : 930 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 17) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid: 12) Connection Terminated (by Server)
+[API Trapper      (2620:237c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[User action                 ] StartTransactionEvent UC_04_Check_Flight [Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (19fc: 724)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc: 724)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (19fc:1518)]   (Sid: 18) Client -> Server @ : 1138 bytes (SSL)(Service=HTTP)
+[Web Request      (19fc:1518)] "POST /service/update2/json?cup2key=10:3418789701&cup2hreq=9506246568b500ce55018a0637b30a10323881228600d883128cc5e55e406121"   
+[Network Analyzer (19fc:1518)]   (Sid: 18) Client -> Server @ : 5857 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 18) Server -> Client : 1326 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 18) Server -> Client : 819 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 18) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  2) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent login [Web Request      (19fc:1518)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (19fc:1518)]   (Sid: 14) Client -> Server @ : 871 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 14) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (19fc:1518)]   (Sid: 14) Client -> Server @ : 722 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 14) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc:1518)]   (Sid: 14) Connection Terminated (by Server)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (19fc:1518)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (19fc:1518)]   (Sid: 19) Client -> Server @ : 717 bytes (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (19fc:1518)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 20) Client -> Server @ : 619 bytes (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 21) Client -> Server @ : 617 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 20) Server -> Client : 1031 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 22) Client -> Server @ : 617 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 21) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 20) Client -> Server @ : 617 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 22) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 20) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 19) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (19fc:1518)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid: 19) Connection Terminated (by Server)
+[API Trapper      (1110:2458)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[User action                 ] EndTransactionEvent login [User action                 ] StartTransactionEvent click_flight [Web Request      (19fc:1518)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (19fc:1518)]   (Sid: 23) Client -> Server @ : 756 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 23) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (19fc:1518)]   (Sid: 23) Client -> Server @ : 739 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 23) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc:1518)]   (Sid: 23) Connection Terminated (by Server)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (19fc:1518)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (19fc:1518)]   (Sid: 24) Client -> Server @ : 740 bytes (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (19fc:1518)]   (Sid: 24) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 24) Server -> Client : 281 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 25) Client -> Server @ : 617 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 25) Server -> Client : 986 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 24) Client -> Server @ : 623 bytes (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (19fc:1518)]   (Sid: 25) Client -> Server @ : 625 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 25) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJACUFCU6JtyxUKEgkNVGIprRIAGgASCQ17ncSlEgAaABIJDR87OYUSABoAEgkN2oWZYRIAGgASCQ2pjkq9EgAaAA==?alt=proto"   
+[Network Analyzer (19fc:1518)]   (Sid: 13) Client -> Server @ : 583 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 24) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 13) Server -> Client : 688 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (19fc:1518)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid: 24) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent click_flight [User action                 ] StartTransactionEvent click_find_flight [Web Request      (19fc:1518)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (19fc:1518)]   (Sid: 26) Client -> Server @ : 1128 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 26) Server -> Client : 2717 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 26) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 26) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent click_find_flight [User action                 ] StartTransactionEvent logout [Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (19fc: 180)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (19fc:1518)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (19fc:1518)]   (Sid: 27) Client -> Server @ : 757 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 27) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 108.177.14.194:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc:22e4)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (19fc:1518)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (19fc:1518)]   (Sid: 27) Client -> Server @ : 614 bytes (Service=HTTP)
+[Web Request      (19fc:1518)] "GET /WebTours/home.html"   
+[Network Analyzer (19fc:1518)]   (Sid: 29) Client -> Server @ : 710 bytes (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 29) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (19fc:22e4)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (19fc:1518)] "GET /offline/common/manifest?ouid=u8f796b9d125775c5"   
+[Network Analyzer (19fc:1518)]   (Sid: 28) Client -> Server @ : 1229 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1c50)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:1c50)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (19fc:1518)] "GET /docs/common/netcheck.gif?zx=ctzdadbek533"   
+[Network Analyzer (19fc:1518)]   (Sid: 30) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 30) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 27) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 27) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 28) Server -> Client : 1232 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 28) Server -> Client : 1144 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 28) Server -> Client : 122 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 28) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (19fc:1518)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 64.233.165.101:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (19fc: 180)] Address lookup for DESKTOP-6398S4M = 192.168.1.220
+[Network Analyzer (19fc: 180)] Request Connection: Remote Server @ 64.233.165.101:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (19fc:32d4)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:32d4)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (19fc:1518)] "OPTIONS /drive/v2internal/about?openDrive=true&reason=301&syncType=0&errorRecovery=false&fields=kind%2Cuser%2CquotaBytesTotal%2CquotaBytesUsed%2CquotaBytesUsedAggregate%2CquotaBytesUsedInTrash%2CquotaBytesByService%2CquotaType%2CrootFolderId%2CdomainSharingPolicy%2ClargestChangeId%2CimportFormats&retryCount=0&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ"   
+[Network Analyzer (19fc:1518)]   (Sid: 31) Client -> Server @ : 902 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:27dc)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (19fc:27dc)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (19fc:1518)] "OPTIONS /drive/v2internal/changes/getRemainingCount?openDrive=false&reason=301&syncType=0&errorRecovery=false&pageToken=23167&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ"   
+[Network Analyzer (19fc:1518)]   (Sid: 32) Client -> Server @ : 717 bytes (SSL)(Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 31) Server -> Client : 884 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 32) Server -> Client : 884 bytes (SSL) (Service=HTTP)
+[Network Analyzer (19fc:1518)]   (Sid: 29) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid: 27) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent logout [Network Analyzer (19fc:1518)]   (Sid:  3) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent UC_04_Check_Flight [Network Analyzer (19fc:1518)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (19fc:1518)]   (Sid:  9) Connection Terminated (by Server)

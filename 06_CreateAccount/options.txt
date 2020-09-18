@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\askar\Desktop\applana\Скрипты\06_CreateAccount
+-ID:\appline\LoadRunner\include
+-ec:\users\askar\desktop\applana\скрипты\06_createaccount\\logfile.log
+c:\users\askar\desktop\applana\скрипты\06_createaccount\\combined_06_CreateAccount.c
+c:\users\askar\desktop\applana\скрипты\06_createaccount\\pre_cci.c
