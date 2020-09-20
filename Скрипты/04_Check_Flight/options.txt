@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\askar\Desktop\applana\Скрипты\04_Check_Flight
--ID:\appline\LoadRunner\include
--ec:\users\askar\desktop\applana\скрипты\04_check_flight\\logfile.log
-c:\users\askar\desktop\applana\скрипты\04_check_flight\\combined_04_Check_Flight.c
-c:\users\askar\desktop\applana\скрипты\04_check_flight\\pre_cci.c
+-IC:\Users\askar\Desktop\x\Скрипты\04_Check_Flight
+-IC:\APPLANA\LR\include
+-ec:\users\askar\desktop\x\скрипты\04_check_flight\\logfile.log
+c:\users\askar\desktop\x\скрипты\04_check_flight\\combined_04_Check_Flight.c
+c:\users\askar\desktop\x\скрипты\04_check_flight\\pre_cci.c

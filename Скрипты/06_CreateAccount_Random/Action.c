@@ -19,26 +19,15 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129607.831915755zzzzHAcpiftVzzzHtAAAApcVHVcf' 
-Name ='userSession' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
-		LAST);
-
 	web_reg_find("Fail=NotFound",
 	"Text=A Session ID has been created and loaded into a cookie called MSO.",
 		LAST);
-
+	
+	web_reg_save_param("userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"",
+		LAST);
+	
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours", 
 		"TargetFrame=", 
@@ -49,7 +38,7 @@ RuleName ='userSession'*/
 		"Mode=HTML", 
 		LAST);
 
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+//	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	/*Possible OAUTH authorization was detected. It is recommended to correlate the authorization parameters.*/
 
@@ -100,7 +89,7 @@ RuleName ='userSession'*/
 	
 	// Если аккаунт уже создан, то проверка не проходит.
 
-	//web_reg_find("Text=Thank you, <b>{loginG}</b>, for registering",
+	//web_reg_find("Text=Thank you, <b></b>, for registering",
 	//	LAST);
 	
 	// Генерация случайных данных код функции приведен в web_api.h
@@ -159,10 +148,8 @@ RuleName ='userSession'*/
 		"Mode=HTML",
 		ITEMDATA,
 		"Name=userSession", "Value={userSession}", ENDITEM,
-		"Name=username", "Value=", ENDITEM,
-		"Name=password", "Value=" 
-	"" 
-	"}", ENDITEM,
+		"Name=username", "Value={loginG}", ENDITEM,
+		"Name=password", "Value={passwordG}", ENDITEM,
 		"Name=login.x", "Value=55", ENDITEM,
 		"Name=login.y", "Value=17", ENDITEM,
 		"Name=JSFormSubmit", "Value=off", ENDITEM,

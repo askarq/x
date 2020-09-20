@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "connect",
+        "rawStartTime": 1600624534929,
+        "rawEndTime": 1600624536798
+    },
+    {
+        "transactionName": "click_signup",
+        "rawStartTime": 1600624536800,
+        "rawEndTime": 1600624542038
+    },
+    {
+        "transactionName": "fill_info_acc",
+        "rawStartTime": 1600624542041,
+        "rawEndTime": 1600624547243
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600624547245,
+        "rawEndTime": 1600624552557
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1600624552559,
+        "rawEndTime": 1600624557795
+    },
+    {
+        "transactionName": "UC_06_Create_Accounts",
+        "rawStartTime": 1600624534927,
+        "rawEndTime": 1600624557798
+    }
+]

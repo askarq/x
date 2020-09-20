@@ -6,7 +6,7 @@ Action()
 
 	/*Possible OAUTH authorization was detected. It is recommended to correlate the authorization parameters.*/
 
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+	//web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
@@ -22,21 +22,10 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129601.323288781zzzzDzipAzzzzzzHDQQQipcAit' 
-Name ='userSession' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
+	
+	web_reg_save_param("userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"",
 		LAST);
 
 	web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO",

@@ -3,7 +3,7 @@
 -D_IDA_XL
 -DWINNT
 -IC:\Users\askar\Desktop\x\Скрипты\01_Buy_Ticket_With_Cancel
--ID:\appline\LoadRunner\include
+-IC:\APPLANA\LR\include
 -ec:\users\askar\desktop\x\скрипты\01_buy_ticket_with_cancel\\logfile.log
 c:\users\askar\desktop\x\скрипты\01_buy_ticket_with_cancel\\combined_01_Buy_Ticket_With_Cancel.c
 c:\users\askar\desktop\x\скрипты\01_buy_ticket_with_cancel\\pre_cci.c

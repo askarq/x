@@ -1,0 +1,42 @@
+[
+    {
+        "transactionName": "connect",
+        "rawStartTime": 1600616933617,
+        "rawEndTime": 1600616934140
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600616934142,
+        "rawEndTime": 1600616934730
+    },
+    {
+        "transactionName": "click_flight",
+        "rawStartTime": 1600616934732,
+        "rawEndTime": 1600616935264
+    },
+    {
+        "transactionName": "click_find_flight",
+        "rawStartTime": 1600616935266,
+        "rawEndTime": 1600616935664
+    },
+    {
+        "transactionName": "choose_flight",
+        "rawStartTime": 1600616935668,
+        "rawEndTime": 1600616936079
+    },
+    {
+        "transactionName": "fill_pay_info",
+        "rawStartTime": 1600616936082,
+        "rawEndTime": 1600616936537
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1600616936539,
+        "rawEndTime": 1600616936997
+    },
+    {
+        "transactionName": "UC_02_BuyTicket",
+        "rawStartTime": 1600616933615,
+        "rawEndTime": 1600616936999
+    }
+]

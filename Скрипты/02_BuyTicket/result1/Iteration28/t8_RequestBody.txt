@@ -1,0 +1,4 @@
+"firstName=Andrey&lastName=Rybin&address1=ulica+Krestina&address2=Astana&pass1=Andrey+Rybin&pas"
+"s2=Andrey+Rybin&pass3=Andrey+Rybin&creditCard=5225200000000000&expDate=2%2F25&oldCCOption=&num"
+"Passengers=3&seatType=First&seatPref=Aisle&outboundFlight=301%3B420%3B09%2F20%2F2020&advanceDi"
+"scount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=24&buyFlights.y=10&.cgifields=saveCC"

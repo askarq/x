@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\askar\Desktop\applana\Скрипты\06_CreateAccount
--ID:\appline\LoadRunner\include
--ec:\users\askar\desktop\applana\скрипты\06_createaccount\\logfile.log
-c:\users\askar\desktop\applana\скрипты\06_createaccount\\combined_06_CreateAccount.c
-c:\users\askar\desktop\applana\скрипты\06_createaccount\\pre_cci.c
+-IC:\Users\askar\Desktop\x\Скрипты\06_CreateAccount_For_Scenario
+-IC:\APPLANA\LR\include
+-ec:\users\askar\desktop\x\скрипты\06_createaccount_for_scenario\\logfile.log
+c:\users\askar\desktop\x\скрипты\06_createaccount_for_scenario\\combined_06_CreateAccount_For_Scenario.c
+c:\users\askar\desktop\x\скрипты\06_createaccount_for_scenario\\pre_cci.c

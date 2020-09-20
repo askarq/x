@@ -4,7 +4,7 @@ Action()
 	
 	lr_start_transaction("connect");
 
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+	//web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
@@ -20,21 +20,10 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129607.737221547zzzzzQHpQiDDDDDDtAAAApViHQ' 
-Name ='userSession' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
+	
+	web_reg_save_param("userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"",
 		LAST);
 
 	web_reg_find("Fail=NotFound",
@@ -167,18 +156,18 @@ RuleName ='userSession'*/
 		"Snapshot=t6.inf",
 		"Mode=HTML",
 		ITEMDATA,
-		"Name=firstName", "Value={firstName}", ENDITEM,
-		"Name=lastName", "Value={lastName}", ENDITEM,
-		"Name=address1", "Value={address1}", ENDITEM,
-		"Name=address2", "Value={address2}", ENDITEM,
-		"Name=pass1", "Value={firstName} {lastName}", ENDITEM,
-		"Name=creditCard", "Value={creditCard}", ENDITEM,
-		"Name=expDate", "Value={randomMonth} / {randomYear}", ENDITEM,
+		"Name=firstName", "Value=firstName", ENDITEM,
+		"Name=lastName", "Value=lastName", ENDITEM,
+		"Name=address1", "Value=address1", ENDITEM,
+		"Name=address2", "Value=address2", ENDITEM,
+		"Name=pass1", "Value=firstName lastName", ENDITEM,
+		"Name=creditCard", "Value=creditCard", ENDITEM,
+		"Name=expDate", "Value=randomMonth / randomYear", ENDITEM,
 		"Name=oldCCOption", "Value=", ENDITEM,
 		"Name=numPassengers", "Value=1", ENDITEM,
-		"Name=seatType", "Value={seatType}", ENDITEM,
-		"Name=seatPref", "Value={seatPref}", ENDITEM,
-		"Name=outboundFlight", "Value={outboundFlight}", ENDITEM,
+		"Name=seatType", "Value=seatType", ENDITEM,
+		"Name=seatPref", "Value=seatPref", ENDITEM,
+		"Name=outboundFlight", "Value=outboundFlight", ENDITEM,
 		"Name=advanceDiscount", "Value=0", ENDITEM,
 		"Name=returnFlight", "Value=", ENDITEM,
 		"Name=JSFormSubmit", "Value=off", ENDITEM,

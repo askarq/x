@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "connect",
+        "rawStartTime": 1600611616333,
+        "rawEndTime": 1600611616637
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600611616639,
+        "rawEndTime": 1600611616952
+    },
+    {
+        "transactionName": "click_itinerary",
+        "rawStartTime": 1600611616954,
+        "rawEndTime": 1600611617527
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1600611617530,
+        "rawEndTime": 1600611617783
+    },
+    {
+        "transactionName": "UC_02_Check_Itinerary",
+        "rawStartTime": 1600611616331,
+        "rawEndTime": 1600611617785
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "connect",
+        "rawStartTime": 1600611520363,
+        "rawEndTime": 1600611520696
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1600611520699,
+        "rawEndTime": 1600611521030
+    },
+    {
+        "transactionName": "click_flight",
+        "rawStartTime": 1600611521032,
+        "rawEndTime": 1600611521336
+    },
+    {
+        "transactionName": "click_find_flight",
+        "rawStartTime": 1600611521338,
+        "rawEndTime": 1600611521583
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1600611521585,
+        "rawEndTime": 1600611521940
+    },
+    {
+        "transactionName": "UC_04_Check_Flight",
+        "rawStartTime": 1600611520361,
+        "rawEndTime": 1600611521942
+    }
+]

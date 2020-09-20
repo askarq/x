@@ -42,20 +42,6 @@ more_passengers()
 
 	lr_think_time(5);
 
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='040;350;09/19/2020' 
-Name ='outboundFlight_1' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='outboundFlight'*/
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		LAST);
-
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
@@ -68,7 +54,7 @@ RuleName ='outboundFlight'*/
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
 		"Name=depart", "Value={depart}", ENDITEM, 
 		"Name=departDate", "Value={departDate}", ENDITEM, 
-		"Name=arrive", "Value=Paris", ENDITEM, 
+		"Name=arrive", "Value={arrive}", ENDITEM, 
 		"Name=returnDate", "Value={returnDate}", ENDITEM, 
 		"Name=numPassengers", "Value={numPass}", ENDITEM, 
 		"Name=seatPref", "Value={seatPref}", ENDITEM, 
@@ -95,7 +81,7 @@ RuleName ='outboundFlight'*/
 		"Snapshot=t36.inf",
 		"Mode=HTML",
 		ITEMDATA,
-		"Name=outboundFlight", "Value={outboundFlight_1}", ENDITEM,
+		"Name=outboundFlight", "Value=040;350;09/19/2020", ENDITEM,
 		"Name=numPassengers", "Value={numPass}", ENDITEM,
 		"Name=advanceDiscount", "Value=0", ENDITEM,
 		"Name=seatType", "Value={seatType}", ENDITEM,
@@ -149,7 +135,7 @@ RuleName ='outboundFlight'*/
 		"Name=numPassengers", "Value=3", ENDITEM,
 		"Name=seatType", "Value={seatType}", ENDITEM,
 		"Name=seatPref", "Value={seatPref}", ENDITEM,
-		"Name=outboundFlight", "Value={outboundFlight_1}", ENDITEM,
+		"Name=outboundFlight", "Value=040;350;09/19/2020", ENDITEM,
 		"Name=advanceDiscount", "Value=0", ENDITEM,
 		"Name=returnFlight", "Value=", ENDITEM,
 		"Name=JSFormSubmit", "Value=off", ENDITEM,
@@ -184,7 +170,7 @@ RuleName ='outboundFlight'*/
 		"Name=numPassengers", "Value=3", ENDITEM,
 		"Name=seatType", "Value={seatType}", ENDITEM,
 		"Name=seatPref", "Value={seatPref}", ENDITEM,
-		"Name=outboundFlight", "Value={outboundFlight_1}", ENDITEM,
+		"Name=outboundFlight", "Value=040;350;09/19/2020", ENDITEM,
 		"Name=advanceDiscount", "Value=0", ENDITEM,
 		"Name=returnFlight", "Value=", ENDITEM,
 		"Name=JSFormSubmit", "Value=off", ENDITEM,

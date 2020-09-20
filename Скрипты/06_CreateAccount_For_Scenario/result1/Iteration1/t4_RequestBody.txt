@@ -1,2 +1,2 @@
-"username=jojo3&password=bean3&passwordConfirm=bean3&firstName=Alexandr&lastName=Ivanov&address"
-"1=ulica+Lenina&address2=Moscow&register.x=73&register.y=8"
+"userSession=129655.485297691zzzQVftpAcftAAVtpQctVf&username=jojo3&password=bean3&login.x=55&lo"
+"gin.y=17&JSFormSubmit=off"

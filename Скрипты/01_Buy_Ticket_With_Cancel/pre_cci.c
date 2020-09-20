@@ -1,5 +1,5 @@
 # 1 "c:\\users\\askar\\desktop\\x\\\361\352\360\350\357\362\373\\01_buy_ticket_with_cancel\\\\combined_01_Buy_Ticket_With_Cancel.c"
-# 1 "D:\\appline\\LoadRunner\\include/lrun.h" 1
+# 1 "C:\\APPLANA\\LR\\include/lrun.h" 1
  
  
 
@@ -26,7 +26,7 @@
 
 
 
-# 103 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 103 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
 
@@ -187,7 +187,7 @@ int lr_generate_uuid_free(lr_uuid_t uuid);
 int lr_generate_uuid_on_buf(lr_uuid_t buf);
 
    
-# 273 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 273 "C:\\APPLANA\\LR\\include/lrun.h"
 int lr_start_distributed_transaction  (char * transaction_name, lr_uuid_t correlator, long timeout  );
 
    
@@ -428,11 +428,11 @@ int   lr_msg (char * fmt, ...);
 int   lr_debug_message (unsigned int msg_class,
 									    char * format,
 										...);
-# 513 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 513 "C:\\APPLANA\\LR\\include/lrun.h"
 void   lr_new_prefix (int type,
                                  char * filename,
                                  int line);
-# 516 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 516 "C:\\APPLANA\\LR\\include/lrun.h"
 int   lr_log_message (char * fmt, ...);
 int   lr_message (char * fmt, ...);
 int   lr_error_message (char * fmt, ...);
@@ -446,7 +446,7 @@ int   lr_fail_trans_with_error (char * fmt, ...);
  
  
  
-# 540 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 540 "C:\\APPLANA\\LR\\include/lrun.h"
 
  
  
@@ -481,7 +481,7 @@ int   lr_eval_string_ext (const char *in_str,
                                      unsigned long const options,
                                      const char *file,
 								     long const line);
-# 574 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 574 "C:\\APPLANA\\LR\\include/lrun.h"
 void   lr_eval_string_ext_free (char * * pstr);
 
  
@@ -505,7 +505,7 @@ void   lr_eval_string_ext_free (char * * pstr);
  
 int lr_param_increment (char * dst_name,
                               char * src_name);
-# 597 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 597 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
 
@@ -530,7 +530,7 @@ int	  lr_save_var (char *              param_val,
 							  unsigned long const param_val_len,
 							  unsigned long const options,
 							  char *			  param_name);
-# 621 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 621 "C:\\APPLANA\\LR\\include/lrun.h"
 int   lr_save_string (const char * param_val, const char * param_name);
 
 
@@ -554,7 +554,7 @@ int   lr_convert_double_to_double (const char *source_param_name, const char *fo
  
  
  
-# 700 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 700 "C:\\APPLANA\\LR\\include/lrun.h"
 void   lr_save_datetime (const char *format, int offset, const char *name);
 
 
@@ -616,7 +616,7 @@ char * lr_table_get_cell_by_col_name (char * param_name, int row, const char* co
 int lr_table_get_column_name_by_index (char * param_name, int col, 
 											char * * const col_name,
 											size_t * col_name_len);
-# 761 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 761 "C:\\APPLANA\\LR\\include/lrun.h"
 
 int lr_table_get_column_name_by_index_free (char * col_name);
 
@@ -624,7 +624,7 @@ int lr_table_get_column_name_by_index_free (char * col_name);
  
  
  
-# 776 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 776 "C:\\APPLANA\\LR\\include/lrun.h"
 int   lr_zip (const char* param1, const char* param2);
 int   lr_unzip (const char* param1, const char* param2);
 
@@ -649,12 +649,12 @@ int   lr_param_substit (char * file,
                                    size_t const in_len,
                                    char * * const out_str,
                                    size_t * const out_len);
-# 800 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 800 "C:\\APPLANA\\LR\\include/lrun.h"
 void   lr_param_substit_free (char * * pstr);
 
 
  
-# 812 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 812 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
 
@@ -663,14 +663,14 @@ void   lr_param_substit_free (char * * pstr);
 char *   lrfnc_eval_string (char * str,
                                       char * file_name,
                                       long const line_num);
-# 820 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 820 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
 int   lrfnc_save_string ( const char * param_val,
                                      const char * param_name,
                                      const char * file_name,
                                      long const line_num);
-# 826 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 826 "C:\\APPLANA\\LR\\include/lrun.h"
 
 int   lrfnc_free_parameter (const char * param_name );
 
@@ -697,7 +697,7 @@ int lr_save_searched_string(char * buffer, long buf_size, unsigned int occurrenc
 char *   lr_string (char * str);
 
  
-# 929 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 929 "C:\\APPLANA\\LR\\include/lrun.h"
 
 int   lr_save_value (char * param_val,
                                 unsigned long const param_val_len,
@@ -705,7 +705,7 @@ int   lr_save_value (char * param_val,
                                 char * param_name,
                                 char * file_name,
                                 long const line_num);
-# 936 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 936 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
  
@@ -728,7 +728,7 @@ int   lr_printf (char * fmt, ...);
  
 int   lr_set_debug_message (unsigned int msg_class,
                                        unsigned int swtch);
-# 958 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 958 "C:\\APPLANA\\LR\\include/lrun.h"
 unsigned int   lr_get_debug_message (void);
 
 
@@ -758,7 +758,7 @@ int *   lr_localtime (long offset);
 int   lr_send_port (long port);
 
 
-# 1034 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 1034 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
 
@@ -776,10 +776,10 @@ void vuser_declaration (void);
 
 
 
-# 1063 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 1063 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
-# 1075 "D:\\appline\\LoadRunner\\include/lrun.h"
+# 1075 "C:\\APPLANA\\LR\\include/lrun.h"
 
 
 
@@ -876,11 +876,8 @@ VTCERR   vtc_create_column(PVCI pvci, char * column,unsigned short *outRc);
 VTCERR   vtc_column_size(PVCI pvci, char * column, int *size);
 void   vtc_free(char * msg);
 void   vtc_free_list(char * *msglist);
-VTCERR   vtc_update_all_message_ifequals(PVCI pvci, char * columnNames, char * message, char * ifmessage, char * delimiter, unsigned short *outRc);
 
 VTCERR   lrvtc_connect(char * servername, int portnum, int options);
-VTCERR   lrvtc_connect_ex(char * vtc_first_param, ...);
-VTCERR   lrvtc_connect_ex_no_ellipsis(const char *vtc_first_param, char ** arguments, int argCount);
 VTCERR   lrvtc_disconnect();
 VTCERR   lrvtc_query_column(char * columnName, int columnIndex);
 VTCERR   lrvtc_query_row(int columnIndex);
@@ -905,7 +902,6 @@ VTCERR   lrvtc_drop_index(char * columnName);
 VTCERR   lrvtc_clear_row(int rowIndex);
 VTCERR   lrvtc_create_column(char * columnName);
 VTCERR   lrvtc_column_size(char * columnName);
-VTCERR   lrvtc_update_all_message_ifequals(char * columnNames, char * message, char * ifmessage, char * delimiter);
 
 
 
@@ -968,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 # 1 "c:\\users\\askar\\desktop\\x\\\361\352\360\350\357\362\373\\01_buy_ticket_with_cancel\\\\combined_01_Buy_Ticket_With_Cancel.c" 2
 
-# 1 "D:\\appline\\LoadRunner\\include/SharedParameter.h" 1
+# 1 "C:\\APPLANA\\LR\\include/SharedParameter.h" 1
 
 
 
@@ -976,7 +972,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
  
  
  
-# 100 "D:\\appline\\LoadRunner\\include/SharedParameter.h"
+# 100 "C:\\APPLANA\\LR\\include/SharedParameter.h"
 
 
 
@@ -1073,8 +1069,6 @@ extern void vtc_free_list(char **msglist);
  
 
 extern VTCERR2  lrvtc_connect(char *servername, int portnum, int options);
- 
- 
 extern VTCERR2  lrvtc_disconnect();
 extern VTCERR2  lrvtc_query_column(char *columnName, int columnIndex);
 extern VTCERR2  lrvtc_query_row(int columnIndex);
@@ -1152,7 +1146,7 @@ extern VTCERR2  lrvtc_noop();
 (fill_pay_info);
 (logout);
 
-# 1 "D:\\appline\\LoadRunner\\include/web_api.h" 1
+# 1 "C:\\APPLANA\\LR\\include/web_api.h" 1
 
 
 
@@ -1160,7 +1154,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 1 "D:\\appline\\LoadRunner\\include/as_web.h" 1
+# 1 "C:\\APPLANA\\LR\\include/as_web.h" 1
 
 
 
@@ -1939,13 +1933,10 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 789 "D:\\appline\\LoadRunner\\include/as_web.h"
+# 789 "C:\\APPLANA\\LR\\include/as_web.h"
 
 
-# 802 "D:\\appline\\LoadRunner\\include/as_web.h"
-
-
-
+# 802 "C:\\APPLANA\\LR\\include/as_web.h"
 
 
 
@@ -1970,7 +1961,10 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 840 "D:\\appline\\LoadRunner\\include/as_web.h"
+
+
+
+# 840 "C:\\APPLANA\\LR\\include/as_web.h"
 
  
  
@@ -2017,7 +2011,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 908 "D:\\appline\\LoadRunner\\include/as_web.h"
+# 908 "C:\\APPLANA\\LR\\include/as_web.h"
 
 
   int
@@ -2112,7 +2106,7 @@ web_stream_set_custom_mpd(
 
 
 
-# 9 "D:\\appline\\LoadRunner\\include/web_api.h" 2
+# 9 "C:\\APPLANA\\LR\\include/web_api.h" 2
 
 
 
@@ -2619,7 +2613,7 @@ Action()
 	
 	lr_start_transaction("connect");
 
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+ 
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
@@ -2636,121 +2630,15 @@ Action()
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
 
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
-		"LAST");
-	
 	web_reg_find("Fail=NotFound",
 		"Text=A Session ID has been created and loaded into a cookie called MSO.",
 		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
+	
+	web_reg_save_param("userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"",
 		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1_1_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1_1_1_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/nav.pl*",
-		"LAST");
+	
 
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours", 
@@ -2795,8 +2683,8 @@ Action()
 		"Mode=HTML",
 		"ITEMDATA",
 		"Name=userSession", "Value={userSession}", "ENDITEM",
-		"Name=username", "Value=jojo3", "ENDITEM",
-		"Name=password", "Value=bean3", "ENDITEM",
+		"Name=username", "Value={login}", "ENDITEM",
+		"Name=password", "Value={password}", "ENDITEM",
 		"Name=login.x", "Value=36", "ENDITEM",
 		"Name=login.y", "Value=10", "ENDITEM",
 		"Name=JSFormSubmit", "Value=off", "ENDITEM",
@@ -2836,13 +2724,12 @@ Action()
 		"http://localhost:1080");
 
 	lr_think_time(5);
-
- 
-
-
-
-
-
+	
+	 
+	 
+	 
+	 
+	 
 	web_reg_save_param_attrib(
 		"ParamName=outboundFlight",
 		"TagName=input",
@@ -2852,19 +2739,7 @@ Action()
 		"Ordinal=ALL",
 		"LAST");
 
- 
 
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"LAST");
 
 	web_reg_save_param("flight_num",
 		"LB=name=\"outboundFlight\" value=\"",
@@ -2878,76 +2753,7 @@ Action()
 		"Ord=ALL",
 		"LAST");
 
- 
 
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1_1_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"LAST");
-
- 
-
-
-
-
-
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1_1_1_1_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"LAST");
-			
 	 
 	
 	web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B> on <B>{departDate}</B>",
@@ -2983,7 +2789,7 @@ Action()
 
 	lr_start_transaction("choose_flight");
 	
-	web_reg_find("Text=name=\"lastName\" value=\"{lastName}",
+	web_reg_find("Text=<title>Flight Reservation</title>",
 		"LAST");
 
 	web_submit_data("reservations.pl_2",
@@ -3054,7 +2860,7 @@ Action()
 		"Name=creditCard", "Value={creditCard}", "ENDITEM",
 		"Name=expDate", "Value={randomMonth}/{randomYear}", "ENDITEM",
 		"Name=oldCCOption", "Value=", "ENDITEM",
-		"Name=numPassengers", "Value=3", "ENDITEM",
+		"Name=numPassengers", "Value={numPass}", "ENDITEM",
 		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=seatPref", "Value={seatPref}", "ENDITEM",
 		"Name=outboundFlight", "Value={outboundFlight_2}", "ENDITEM",
@@ -3088,7 +2894,7 @@ Action()
 		"Name=pass4", "Value={firstName} {lastName}", "ENDITEM",
 		"Name=creditCard", "Value={creditCard}", "ENDITEM",
 		"Name=expDate", "Value={randomMonth}/{randomYear}", "ENDITEM",
-		"Name=oldCCOption", "Value=", "ENDITEM",
+		"Name=oldCCOption", "Value=", "ENDITEM", 
 		"Name=numPassengers", "Value={numPass}", "ENDITEM",
 		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=seatPref", "Value={seatPref}", "ENDITEM",
@@ -3216,6 +3022,7 @@ cancel()
 		"LAST");
 	}
 	else if(atoi(lr_eval_string("{randomCancel}")) == 2 ) {
+		
 	web_submit_form("itinerary.pl",
 		"ITEMDATA",
 		"Name=1", "Value=on", "ENDITEM",
@@ -3253,7 +3060,7 @@ cancel()
 		
 	}
 	    
-# 141 "cancel.c"
+# 142 "cancel.c"
 
 	lr_end_transaction("click_cancel",2);
 

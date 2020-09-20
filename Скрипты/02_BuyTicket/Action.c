@@ -4,7 +4,7 @@ Action()
 	
 	lr_start_transaction("connect");
 
-	web_set_sockets_option("SSL_VERSION", "AUTO");
+	//web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
@@ -20,57 +20,15 @@ Action()
 
 	web_add_auto_header("Upgrade-Insecure-Requests", 
 		"1");
-
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129628.006885379zzzHHtApzAtVzzzHtAAAzpttDzcf' 
-Name ='userSession' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
+	
+	web_reg_save_param("userSession",
+		"LB=name=\"userSession\" value=\"",
+		"RB=\"",
 		LAST);
-
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129628.006885379zzzHHtApzAtVzzzHtAAAzpttDzcf' 
-Name ='userSession_1' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
-		LAST);
+	
 		
 	web_reg_find("Fail=NotFound",
 		"Text=A Session ID has been created and loaded into a cookie called MSO.",
-		LAST);
-		
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='129628.006885379zzzHHtApzAtVzzzHtAAAzpttDzcf' 
-Name ='userSession_1_1' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='userSession'*/
-	web_reg_save_param_attrib(
-		"ParamName=userSession_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"RequestUrl=*/nav.pl*",
 		LAST);
 
 	web_url("WebTours", 
@@ -198,23 +156,7 @@ RuleName ='outboundFlight'*/
 		"RB=m<td align=\"center\">",
 		"Ord=ALL",
 		LAST);
-	
-	
-	
-/*Correlation comment: Automatic rules - Do not change!  
-Original value='030;251;09/17/2020' 
-Name ='outboundFlight_1_1' 
-Type ='Rule' 
-AppName ='WebTours' 
-RuleName ='outboundFlight'*/
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight_1_1",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		LAST);
-		
+
 	// Flight departing from <B>Denver</B> to <B>Los Angeles</B> on <B>09/17/2020</B>
 	
 	web_reg_find("Text=Flight departing from <B>{depart}</B> to <B>{arrive}</B> on <B>{departDate}</B>",
@@ -250,7 +192,7 @@ RuleName ='outboundFlight'*/
 
 	lr_start_transaction("choose_flight");
 	
-	web_reg_find("Text=name=\"lastName\" value=\"{lastName}",
+	web_reg_find("Text=<title>Flight Reservation</title>",
 		LAST);
 
 	web_submit_data("reservations.pl_2",
@@ -321,7 +263,7 @@ RuleName ='outboundFlight'*/
 		"Name=creditCard", "Value={creditCard}", ENDITEM,
 		"Name=expDate", "Value={randomMonth}/{randomYear}", ENDITEM,
 		"Name=oldCCOption", "Value=", ENDITEM,
-		"Name=numPassengers", "Value=3", ENDITEM,
+		"Name=numPassengers", "Value={numPass}", ENDITEM,
 		"Name=seatType", "Value={seatType}", ENDITEM,
 		"Name=seatPref", "Value={seatPref}", ENDITEM,
 		"Name=outboundFlight", "Value={outboundFlight_2}", ENDITEM,

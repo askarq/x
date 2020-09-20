@@ -1,9 +1,9 @@
-Virtual User Script started at: 18.09.2020 16:20:30
+Virtual User Script started at: 20.09.2020 17:19:36
 Starting action vuser_init.
-Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\askar\Desktop\applana\Скрипты\05_CheckItinerary\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\Users\askar\Desktop\x\Скрипты\05_CheckItinerary\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -11,8 +11,6 @@ Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
 Action.c(3): Notify: Transaction "UC_02_Check_Itinerary" started.
 Action.c(5): Notify: Transaction "connect" started.
-Action.c(9): web_set_sockets_option started  	[MsgId: MMSG-26355]
-Action.c(9): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 Action.c(11): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
 Action.c(11): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
 Action.c(14): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
@@ -23,1541 +21,1706 @@ Action.c(20): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355
 Action.c(20): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
 Action.c(23): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
 Action.c(23): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(32): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
-Action.c(32): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
-Action.c(42): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(42): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(45): web_url("WebTours") started  	[MsgId: MMSG-26355]
-Action.c(45): t=407ms: 267-byte response headers for "http://localhost:1080/WebTours" (RelFrameId=1, Internal ID=1)
-Action.c(45):     HTTP/1.1 301 Moved Permanently\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Location: http://localhost:1080/WebTours/\r\n
-Action.c(45):     Content-Length: 239\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=100\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Content-Type: text/html; charset=iso-8859-1\r\n
-Action.c(45):     \r\n
-Action.c(45): t=457ms: 239-byte response body for "http://localhost:1080/WebTours" (RelFrameId=1, Internal ID=1)
-Action.c(45):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
-Action.c(45):     <html><head>\n
-Action.c(45):     <title>301 Moved Permanently</title>\n
-Action.c(45):     </head><body>\n
-Action.c(45):     <h1>Moved Permanently</h1>\n
-Action.c(45):     <p>The document has moved <a href="http://localhost:1080/WebTours/">here</a>.</p>\n
-Action.c(45):     </body></html>\n
-Action.c(45): Redirecting "http://localhost:1080/WebTours" (redirection depth is 0)  	[MsgId: MMSG-26694]
-Action.c(45): To location "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26693]
-Action.c(45): t=518ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=2)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
-Action.c(45):     ETag: "300000003b957-16e-4ddb1559ac980"\r\n
-Action.c(45):     Accept-Ranges: bytes\r\n
-Action.c(45):     Content-Length: 366\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=100\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Content-Type: text/html\r\n
-Action.c(45):     \r\n
-Action.c(45): t=522ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=2)
-Action.c(45):     <HTML>\n
-Action.c(45):     <HEAD>\n
-Action.c(45):     <title>Web Tours</title>\n
-Action.c(45):     <frameset rows = "65,*" border="1" bordercolor="#E0E7F1">\n
-Action.c(45):     <frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2"
-Action.c(45):      marginwidth="2"/>\n
-Action.c(45):     <frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="nores
-Action.c(45):     ize" marginheight="2" marginwidth="2" />\n
-Action.c(45):     </frameset>\n
-Action.c(45):     </HEAD>\n
-Action.c(45):     </HTML>\n
-Action.c(45):     \n
-Action.c(45): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
-Action.c(45): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
-Action.c(45): t=533ms: 297-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=3)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
-Action.c(45):     ETag: "900000003b92b-2c6-4ddb1559ac980"\r\n
-Action.c(45):     Accept-Ranges: bytes\r\n
-Action.c(45):     Content-Length: 710\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=99\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Content-Type: text/html\r\n
-Action.c(45):     \r\n
-Action.c(45): t=535ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=3)
-Action.c(45):     <!DOCTYPE html>\n
-Action.c(45):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
-Action.c(45):     <HEAD></HEAD>\n
-Action.c(45):     <BODY bgcolor="#003366" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
-Action.c(45):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
-Action.c(45):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
-Action.c(45):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
-Action.c(45):     \t\t\t<tr>\n
-Action.c(45):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" 
-Action.c(45):     height="45" width="69" align="absmiddle" border="0"/><img src="images/webtours.png" alt=""
-Action.c(45):      height="45" width="130" align="absmiddle" border="0"/></td>\n
-Action.c(45):     \t\t\t\t<td align="right"></td>\n
-Action.c(45):     \t\t\t\t<td></td>\n
-Action.c(45):     \t\t\t</tr>\n
-Action.c(45):     \t\t</table>\n
-Action.c(45):     \t</BODY>\n
-Action.c(45):     </HTML>
-Action.c(45): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
-Action.c(45): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
-Action.c(45): t=582ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=5)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(45):     ETag: "900000003b93b-259-4b654c052c2c0"\r\n
-Action.c(45):     Accept-Ranges: bytes\r\n
-Action.c(45):     Content-Length: 601\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=99\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Content-Type: image/png\r\n
-Action.c(45):     \r\n
-Action.c(45): t=584ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=5)
-Action.c(45): t=587ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=6)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Last-Modified: Mon, 04 Nov 2013 13:47:02 GMT\r\n
-Action.c(45):     ETag: "400000003b954-105b-4ea5a26938180"\r\n
-Action.c(45):     Accept-Ranges: bytes\r\n
-Action.c(45):     Content-Length: 4187\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=100\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Content-Type: image/png\r\n
-Action.c(45):     \r\n
-Action.c(45): t=589ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=6)
-Action.c(45): t=637ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Set-Cookie: MSO=SID&1600435230; path=/\r\n
-Action.c(45):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 17-Sep-2020 13:20:30 GMT\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=100\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Transfer-Encoding: chunked\r\n
-Action.c(45):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(45):     \r\n
-Action.c(45): t=638ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
-Action.c(45):     2ae\r\n
-Action.c(45): t=638ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
-Action.c(45):     \r\n
-Action.c(45): t=639ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
-Action.c(45):     <!-- \n
-Action.c(45):      A Session ID has been created and loaded into a cookie called MSO.\n
-Action.c(45):      Also, the server options have been loaded into the cookie called\n
-Action.c(45):      MSO as well.  The server options can be set via the Admin page.\n
-Action.c(45):      --->\n
-Action.c(45):     \n
-Action.c(45):     <html>\n
-Action.c(45):     <title>Web Tours</title>\n
-Action.c(45):        <!-- Frame Set -->\n
-Action.c(45):        <frameset cols="160,*" border="1" frameborder="1">\n
-Action.c(45):           <!-- Navigation Frame -->\n
-Action.c(45):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
-Action.c(45):                 noresize="noresize" scrolling="auto"/>\n
-Action.c(45):           <!-- Home Frame -->\n
-Action.c(45):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
-Action.c(45):                 noresize="noresize" scrolling="auto"/>\n
-Action.c(45):        </frameset>\n
-Action.c(45):     </html>\n
-Action.c(45):     \n
-Action.c(45):     </body>\n
-Action.c(45):     </html>
-Action.c(45): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
-Action.c(45): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
-Action.c(45): t=642ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
-Action.c(45):     0\r\n
-Action.c(45):     \r\n
-Action.c(45): t=650ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=8)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
-Action.c(45):     ETag: "700000003b92c-551-4ddb1559ac980"\r\n
-Action.c(45):     Accept-Ranges: bytes\r\n
-Action.c(45):     Content-Length: 1361\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=98\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Content-Type: text/html\r\n
-Action.c(45):     \r\n
-Action.c(45): t=652ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=8)
-Action.c(45):     <HTML>\n
-Action.c(45):     <HEAD>\n
-Action.c(45):     \t<title>Web Tours</title>\n
-Action.c(45):     </HEAD>\n
-Action.c(45):     <style>\n
-Action.c(45):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
-Action.c(45):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
-Action.c(45):     \tsmall {font-family: tahoma; font-size : 8pt}\n
-Action.c(45):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(45):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
-Action.c(45):     N: none}\n
-Action.c(45):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
-Action.c(45):     CORATION: underline}\n
-Action.c(45):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(45):     </style>\n
-Action.c(45):     <body bgcolor="#e0e7f1">\n
-Action.c(45):     <BR/>\n
-Action.c(45):     <BR/>\n
-Action.c(45):     <BR/>\n
-Action.c(45):     <br/>\n
-Action.c(45):     <table border="0">\n
-Action.c(45):     <tr><td></td></tr>\n
-Action.c(45):     <TR><TD></TD></TR>\n
-Action.c(45):     <TR><TD>\n
-Action.c(45):     <blockquote>\n
-Action.c(45):     <H1><b>Web Tours</b></H1>\n
-Action.c(45):     Welcome to the Web Tours site.\n
-Action.c(45):     <br/>\n
-Action.c(45):     To make reservations,please enter your account information to the left.\n
-Action.c(45):     <br/>\n
-Action.c(45):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
-Action.c(45):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
-Action.c(45):     <br/>\n
-Action.c(45):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
-Action.c(45):     tration</b></A> link.\n
-Action.c(45):     <br/><br/><br/><br/><br/><br/>\n
-Action.c(45):     <br/><small>\n
-Action.c(45):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
-Action.c(45):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
-Action.c(45):     </small>\n
-Action.c(45):     </blockquote></TD>\n
-Action.c(45):     <TD></TD></TR>\n
-Action.c(45):     </table>\n
-Action.c(45):     </body>\n
-Action.c(45):     </HTML>\n
-Action.c(45): t=704ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Expires: Thu, 17 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=98\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Transfer-Encoding: chunked\r\n
-Action.c(45):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(45):     \r\n
-Action.c(45): t=705ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
-Action.c(45):     5cc\r\n
-Action.c(45): t=706ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
-Action.c(45):     \r\n
-Action.c(45): t=706ms: 1484-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
-Action.c(45):     <!DOCTYPE html\n
-Action.c(45):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
-Action.c(45):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
-Action.c(45):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
-Action.c(45):     <head>\n
-Action.c(45):     <title>Web Tours Navigation Bar</title>\n
-Action.c(45):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
-Action.c(45):     </head>\n
-Action.c(45):     <body bgcolor="#E0E7F1">\n
-Action.c(45):     <style>\n
-Action.c(45):     blockquote {font-family: tahoma; font-size : 10pt}\n
-Action.c(45):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
-Action.c(45):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(45):     small {font-family: tahoma; font-size : 8pt}\n
-Action.c(45):     </style>\n
-Action.c(45):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
-Action.c(45):     <input type="hidden" name="userSession" value="129642.383961118zzzitiApVcftAAVApiiAHf"/>\n
-Action.c(45):     <table border="0"><tr><td>&nbsp;</td>\n
-Action.c(45):     <td>&nbsp;</td></tr>\n
-Action.c(45):     <tr><td>&nbsp;</td>\n
-Action.c(45):     <td>&nbsp;</td></tr>\n
-Action.c(45):     <tr><td>&nbsp;</td>\n
-Action.c(45):     <td><small>&nbsp;Username</small></td></tr>\n
-Action.c(45):     <tr><td>&nbsp;</td>\n
-Action.c(45):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
-Action.c(45):     <tr><td>&nbsp;</td>\n
-Action.c(45):     <td><small>&nbsp;Password</small></td>\n
-Action.c(45):     <tr><td>&nbsp;</td>\n
-Action.c(45):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
-Action.c(45):     <tr><td>&nbsp;</td>\n
-Action.c(45):     <td>&nbsp;</td></tr>\n
-Action.c(45):     <tr><td>&nbsp;</td>\n
-Action.c(45):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
-Action.c(45):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
-Action.c(45):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
-Action.c(45):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
-Action.c(45):     </form>\n
-Action.c(45):     \n
-Action.c(45):     </body>\n
-Action.c(45):     </html>\n
-Action.c(45): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-Action.c(45): t=711ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
-Action.c(45):     0\r\n
-Action.c(45):     \r\n
-Action.c(45): Notify: Saving Parameter "userSession = 129642.383961118zzzitiApVcftAAVApiiAHf".
-Action.c(45): t=714ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=9)
-Action.c(45):     HTTP/1.1 200 OK\r\n
-Action.c(45):     Date: Fri, 18 Sep 2020 13:20:30 GMT\r\n
-Action.c(45):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(45):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(45):     ETag: "300000003b946-2a7-4b654c052c2c0"\r\n
-Action.c(45):     Accept-Ranges: bytes\r\n
-Action.c(45):     Content-Length: 679\r\n
-Action.c(45):     Keep-Alive: timeout=5, max=97\r\n
-Action.c(45):     Connection: Keep-Alive\r\n
-Action.c(45):     Content-Type: image/gif\r\n
-Action.c(45):     \r\n
-Action.c(45): t=715ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=9)
-Action.c(45): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
-Action.c(45): web_url("WebTours") was successful, 10313 body bytes, 2637 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(55): Notify: Transaction "connect" ended with a "Pass" status (Duration: 4.6570 Wasted Time: 0.2083).
-Action.c(57): Notify: Transaction "login" started.
-Action.c(59): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
-Action.c(59): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
-Action.c(59): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
-Action.c(61): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
-Action.c(61): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
-Action.c(64): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
-Action.c(64): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
-Action.c(64): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(66): web_add_header("Origin") started  	[MsgId: MMSG-26355]
-Action.c(66): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
-Action.c(69): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
-Action.c(69): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
-Action.c(74): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(74): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(78): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
-Action.c(78): Notify: Parameter Substitution: parameter "userSession" =  "129642.383961118zzzitiApVcftAAVApiiAHf"
-Action.c(78): Notify: Parameter Substitution: parameter "login" =  "jojo3"
-Action.c(78): Notify: Next row for parameter password = 1 [table  = password].
-Action.c(78): Notify: Parameter Substitution: parameter "password" =  "bean3"
-Action.c(78): t=4967ms: 385-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
-Action.c(78):     HTTP/1.1 200 OK\r\n
-Action.c(78):     Date: Fri, 18 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(78):     Expires: 5s\r\n
-Action.c(78):     Set-Cookie: MTUserInfo=firstName&Alexandr&address2&Moscow&username&jojo3&hash&83&lastName&
-Action.c(78):     Ivanov%0A&address1&ulica%20Lenina&creditCard&&expDate&%0A; path=/\r\n
-Action.c(78):     Keep-Alive: timeout=5, max=97\r\n
-Action.c(78):     Connection: Keep-Alive\r\n
-Action.c(78):     Transfer-Encoding: chunked\r\n
-Action.c(78):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(78):     \r\n
-Action.c(78): t=4971ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
-Action.c(78):     1e1\r\n
-Action.c(78): t=4971ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
-Action.c(78):     \r\n
-Action.c(78): t=4972ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
-Action.c(78):     <!--\n
-Action.c(78):     User password was correct - added a cookie with the user's default\n
-Action.c(78):     information.  Set the user up to make reservations...\n
-Action.c(78):     \n
-Action.c(78):     --->\n
-Action.c(78):     \n
-Action.c(78):     <html>\n
-Action.c(78):     <title>Web Tours</title>\n
-Action.c(78):     <frameset cols="160,*" border=1 frameborder=1>\n
-Action.c(78):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
-Action.c(78):     ize="noresize" scrolling="auto"/>\n
-Action.c(78):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
-Action.c(78):     resize" scrolling="auto"/>\n
-Action.c(78):     </frameset>\n
-Action.c(78):     \n
-Action.c(78):     </body>\n
-Action.c(78):     </html>
-Action.c(78): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
-Action.c(78): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
-Action.c(78): t=4974ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
-Action.c(78):     0\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5034ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
-Action.c(78):     HTTP/1.1 200 OK\r\n
-Action.c(78):     Date: Fri, 18 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(78):     Expires: Thu, 17 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Keep-Alive: timeout=5, max=96\r\n
-Action.c(78):     Connection: Keep-Alive\r\n
-Action.c(78):     Transfer-Encoding: chunked\r\n
-Action.c(78):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5036ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
-Action.c(78):     5ca\r\n
-Action.c(78): t=5036ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
-Action.c(78):     \r\n
-Action.c(78): t=5037ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
-Action.c(78):     <!DOCTYPE html\n
-Action.c(78):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
-Action.c(78):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
-Action.c(78):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
-Action.c(78):     <head>\n
-Action.c(78):     <title>Web Tours Navigation Bar</title>\n
-Action.c(78):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
-Action.c(78):     </head>\n
-Action.c(78):     <body bgcolor="#E0E7F1">\n
-Action.c(78):     \n
-Action.c(78):     <style>\n
-Action.c(78):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
-Action.c(78):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
-Action.c(78):     \tsmall {font-family: tahoma; font-size : 8pt}\n
-Action.c(78):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(78):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
-Action.c(78):     N: none}\n
-Action.c(78):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
-Action.c(78):     CORATION: underline}\n
-Action.c(78):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(78):     </style>\n
-Action.c(78):     \n
-Action.c(78):     <BR><BR><center>\n
-Action.c(78):     \n
-Action.c(78):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
-Action.c(78):     RC="/WebTours/images/flights.gif" \n
-Action.c(78):     ALT="Search Flights Button"/></A>\n
-Action.c(78):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
-Action.c(78):     WebTours/images/itinerary.gif" \n
-Action.c(78):     ALT="Itinerary Button"/></A>\n
-Action.c(78):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
-Action.c(78):     ours/images/in_home.gif" \n
-Action.c(78):     ALT="Home Button"/></A>\n
-Action.c(78):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
-Action.c(78):     es/signoff.gif" \n
-Action.c(78):     ALT="SignOff Button"/></A></center>\n
-Action.c(78):     \n
-Action.c(78):     </body>\n
-Action.c(78):     </html>\n
-Action.c(78): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(78): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(78): t=5044ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
-Action.c(78):     0\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5047ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=13)
-Action.c(78):     HTTP/1.1 200 OK\r\n
-Action.c(78):     Date: Fri, 18 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(78):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(78):     ETag: "300000003b934-2d6-4b654c052c2c0"\r\n
-Action.c(78):     Accept-Ranges: bytes\r\n
-Action.c(78):     Content-Length: 726\r\n
-Action.c(78):     Keep-Alive: timeout=5, max=96\r\n
-Action.c(78):     Connection: Keep-Alive\r\n
-Action.c(78):     Content-Type: image/gif\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5049ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=13)
-Action.c(78): t=5051ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
-Action.c(78):     HTTP/1.1 200 OK\r\n
-Action.c(78):     Date: Fri, 18 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(78):     Expires: 5s\r\n
-Action.c(78):     Keep-Alive: timeout=5, max=99\r\n
-Action.c(78):     Connection: Keep-Alive\r\n
-Action.c(78):     Transfer-Encoding: chunked\r\n
-Action.c(78):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5052ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
-Action.c(78):     397\r\n
-Action.c(78): t=5053ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
-Action.c(78):     \r\n
-Action.c(78):     0\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5054ms: 919-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
-Action.c(78):     <!DOCTYPE html\n
-Action.c(78):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
-Action.c(78):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
-Action.c(78):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
-Action.c(78):     <head>\n
-Action.c(78):     <title>Welcome to Web Tours</title>\n
-Action.c(78):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
-Action.c(78):     </head>\n
-Action.c(78):     <body bgcolor="#E0E7F1">\n
-Action.c(78):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
-Action.c(78):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
-Action.c(78):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
-Action.c(78):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo3</b>, to the Web Tours
-Action.c(78):      reservation pages.<BR/>Using the menu to the left, you can search for new flights to book
-Action.c(78):     , \n
-Action.c(78):     or review/edit the flights already booked.  Don't forget to sign off when\n
-Action.c(78):     you're done!\n
-Action.c(78):     </blockquote>\n
-Action.c(78):     </body>\n
-Action.c(78):     </html>
-Action.c(78): t=5058ms: 297-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=14)
-Action.c(78):     HTTP/1.1 200 OK\r\n
-Action.c(78):     Date: Fri, 18 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(78):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(78):     ETag: "500000003b943-2dd-4b654c052c2c0"\r\n
-Action.c(78):     Accept-Ranges: bytes\r\n
-Action.c(78):     Content-Length: 733\r\n
-Action.c(78):     Keep-Alive: timeout=5, max=99\r\n
-Action.c(78):     Connection: Keep-Alive\r\n
-Action.c(78):     Content-Type: image/gif\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5060ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=14)
-Action.c(78): t=5061ms: 298-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=15)
-Action.c(78):     HTTP/1.1 200 OK\r\n
-Action.c(78):     Date: Fri, 18 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(78):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(78):     ETag: "400000003b93d-2b0-4b654c052c2c0"\r\n
-Action.c(78):     Accept-Ranges: bytes\r\n
-Action.c(78):     Content-Length: 688\r\n
-Action.c(78):     Keep-Alive: timeout=5, max=100\r\n
-Action.c(78):     Connection: Keep-Alive\r\n
-Action.c(78):     Content-Type: image/gif\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5063ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=15)
-Action.c(78): t=5064ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=16)
-Action.c(78):     HTTP/1.1 200 OK\r\n
-Action.c(78):     Date: Fri, 18 Sep 2020 13:20:34 GMT\r\n
-Action.c(78):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(78):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(78):     ETag: "300000003b94b-2ef-4b654c052c2c0"\r\n
-Action.c(78):     Accept-Ranges: bytes\r\n
-Action.c(78):     Content-Length: 751\r\n
-Action.c(78):     Keep-Alive: timeout=5, max=100\r\n
-Action.c(78):     Connection: Keep-Alive\r\n
-Action.c(78):     Content-Type: image/gif\r\n
-Action.c(78):     \r\n
-Action.c(78): t=5066ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=16)
-Action.c(78): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
-Action.c(78): web_submit_data("login.pl") was successful, 5780 body bytes, 2058 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(95): Notify: Transaction "login" ended with a "Pass" status (Duration: 0.4869 Wasted Time: 0.0102).
-Action.c(97): Notify: Transaction "click_itinerary" started.
-Action.c(99): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
-Action.c(99): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
-Action.c(102): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
-Action.c(102): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
-Action.c(107): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(107): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(111): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
-Action.c(111): t=5441ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
-Action.c(111):     HTTP/1.1 200 OK\r\n
-Action.c(111):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(111):     Keep-Alive: timeout=5, max=95\r\n
-Action.c(111):     Connection: Keep-Alive\r\n
-Action.c(111):     Transfer-Encoding: chunked\r\n
-Action.c(111):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5443ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
-Action.c(111):     24f\r\n
-Action.c(111): t=5444ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
-Action.c(111):     \r\n
-Action.c(111): t=5444ms: 591-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
-Action.c(111):     <!-- \n
-Action.c(111):      User wants the intineraries.  Since user has already logged on,\n
-Action.c(111):      we can give them the menu in the navbar.\n
-Action.c(111):      --->\n
-Action.c(111):     \n
-Action.c(111):     <html>\n
-Action.c(111):     <title>Web Tours</title>\n
-Action.c(111):        <!-- Frame Set -->\n
-Action.c(111):        <frameset cols="160,*" border="1" frameborder="1">\n
-Action.c(111):           <!-- Navigation Frame -->\n
-Action.c(111):           <frame src="nav.pl?page=menu&in=itinerary" name="navbar" \n
-Action.c(111):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
-Action.c(111):           <!-- Itinerary Frame -->\n
-Action.c(111):           <frame src="itinerary.pl" name="info" \n
-Action.c(111):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
-Action.c(111):        </frameset>\n
-Action.c(111):     </html>\n
-Action.c(111): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
-Action.c(111): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
-Action.c(111): t=5447ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
-Action.c(111):     0\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5505ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
-Action.c(111):     HTTP/1.1 200 OK\r\n
-Action.c(111):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(111):     Expires: Thu, 17 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Keep-Alive: timeout=5, max=95\r\n
-Action.c(111):     Connection: Keep-Alive\r\n
-Action.c(111):     Transfer-Encoding: chunked\r\n
-Action.c(111):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5507ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
-Action.c(111):     5ca\r\n
-Action.c(111): t=5507ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
-Action.c(111):     \r\n
-Action.c(111): t=5508ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
-Action.c(111):     <!DOCTYPE html\n
-Action.c(111):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
-Action.c(111):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
-Action.c(111):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
-Action.c(111):     <head>\n
-Action.c(111):     <title>Web Tours Navigation Bar</title>\n
-Action.c(111):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
-Action.c(111):     </head>\n
-Action.c(111):     <body bgcolor="#E0E7F1">\n
-Action.c(111):     \n
-Action.c(111):     <style>\n
-Action.c(111):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
-Action.c(111):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
-Action.c(111):     \tsmall {font-family: tahoma; font-size : 8pt}\n
-Action.c(111):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(111):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
-Action.c(111):     N: none}\n
-Action.c(111):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
-Action.c(111):     CORATION: underline}\n
-Action.c(111):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(111):     </style>\n
-Action.c(111):     \n
-Action.c(111):     <BR><BR><center>\n
-Action.c(111):     \n
-Action.c(111):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
-Action.c(111):     RC="/WebTours/images/flights.gif" \n
-Action.c(111):     ALT="Search Flights Button"/></A>\n
-Action.c(111):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
-Action.c(111):     WebTours/images/in_itinerary.gif" \n
-Action.c(111):     ALT="Itinerary Button"/></A>\n
-Action.c(111):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
-Action.c(111):     ours/images/home.gif" \n
-Action.c(111):     ALT="Home Button"/></A>\n
-Action.c(111):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
-Action.c(111):     es/signoff.gif" \n
-Action.c(111):     ALT="SignOff Button"/></A></center>\n
-Action.c(111):     \n
-Action.c(111):     </body>\n
-Action.c(111):     </html>\n
-Action.c(111): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(111): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
-Action.c(111): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
-Action.c(111): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(111): t=5513ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
-Action.c(111):     0\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5516ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=20)
-Action.c(111):     HTTP/1.1 200 OK\r\n
-Action.c(111):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(111):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(111):     ETag: "300000003b93e-2dd-4b654c052c2c0"\r\n
-Action.c(111):     Accept-Ranges: bytes\r\n
-Action.c(111):     Content-Length: 733\r\n
-Action.c(111):     Keep-Alive: timeout=5, max=94\r\n
-Action.c(111):     Connection: Keep-Alive\r\n
-Action.c(111):     Content-Type: image/gif\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5519ms: 733-byte response body for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=20)
-Action.c(111): t=5520ms: 255-byte response headers for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     HTTP/1.1 200 OK\r\n
-Action.c(111):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(111):     Expires: Thu, 17 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Keep-Alive: timeout=5, max=98\r\n
-Action.c(111):     Connection: Keep-Alive\r\n
-Action.c(111):     Transfer-Encoding: chunked\r\n
-Action.c(111):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5521ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     f84\r\n
-Action.c(111): t=5522ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     \r\n
-Action.c(111):     1000\r\n
-Action.c(111): t=5522ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     \r\n
-Action.c(111):     1000\r\n
-Action.c(111): t=5523ms: 12011-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     <!DOCTYPE html\n
-Action.c(111):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
-Action.c(111):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
-Action.c(111):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
-Action.c(111):     <head>\n
-Action.c(111):     <title>Flights List</title>\n
-Action.c(111):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
-Action.c(111):     </head>\n
-Action.c(111):     <body bgcolor="#E0E7F1">\n
-Action.c(111):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
-Action.c(111):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
-Action.c(111):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
-Action.c(111):     </style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><block
-Action.c(111):     quote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded
-Action.c(111):     ">\n
-Action.c(111):     <center>\n
-Action.c(111):     <TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">\n
-Action.c(111):     <TR bgcolor="#5E7884">\n
-Action.c(111):       <TD colspan="4" align="center"><font color="white"><B>Alexandr Ivanov\n
-Action.c(111):      's Flight Transaction Summary</B></color></TD></TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-7840-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;3 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 1932 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="2" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="210298158-15469-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;4 Coach class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>s      <li><i>s      <li><i>s\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 1100 <BR/> (CC: x-5678)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/19/2020\n
-Action.c(111):      :  8am : Flight 050 leaves Denver  for Portland.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="3" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-23225-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;3 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 1932 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="4" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-3126-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 644 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="5" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-38610-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;3 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 1932 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="6" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-4664-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 644 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="7" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-53994-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;3 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 1932 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="8" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-61736-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;4 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      
-Action.c(111):     <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 2576 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="9" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-69428-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;4 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      
-Action.c(111):     <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 2576 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="10" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-77071-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;3 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/
-Action.c(111): t=5580ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     \r\n
-Action.c(111):     1000\r\n
-Action.c(111): t=5580ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     \r\n
-Action.c(111):     beb\r\n
-Action.c(111): t=5581ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     \r\n
-Action.c(111):     0\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5582ms: 7300-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
-Action.c(111):     >\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 1932 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="11" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-84813-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;4 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      
-Action.c(111):     <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 2576 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="12" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="431-92456-AI"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;3 First class tickets for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               Alexandr Ivanov\n
-Action.c(111):     <br/>\n
-Action.c(111):               ulica Lenina<br/>\n
-Action.c(111):               Moscow<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 1932 <BR/> (CC: x-0000)\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):       09/18/2020\n
-Action.c(111):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="13" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="0-100-{{"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>{firstName} {lastName}\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               {firstName} {lastName}\n
-Action.c(111):     <br/>\n
-Action.c(111):               {address1}<br/>\n
-Action.c(111):               {address2}<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 0 <BR/> (CC: x-ard})\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):        :  8am : Flight {outboundFlight}\n
-Action.c(111):      leaves Denver  for Denver.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="14" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="0-107-{{"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>{firstName} {lastName}\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               {firstName} {lastName}\n
-Action.c(111):     <br/>\n
-Action.c(111):               {address1}<br/>\n
-Action.c(111):               {address2}<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 0 <BR/> (CC: x-ard})\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):        :  8am : Flight {outboundFlight}\n
-Action.c(111):      leaves Denver  for Denver.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <!-- Flight #1 -->\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD width="5%" rowspan="2" align="left" valign="top">\n
-Action.c(111):     <b>\n
-Action.c(111):     <label><input type="checkbox" name="15" value="on" /></label></font></b>\n
-Action.c(111):     <input type="hidden" name="flightID" value="0-115-{{"  />\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="45%" valign="top">\n
-Action.c(111):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
-Action.c(111):           <center><table border="0" width="85%"><tr><td>\n
-Action.c(111):           <li><i>{firstName} {lastName}\n
-Action.c(111):           <li><i></i>\n
-Action.c(111):           </td></tr></table></center>\n
-Action.c(111):       </TD>\n
-Action.c(111):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
-Action.c(111):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
-Action.c(111):           <center>\n
-Action.c(111):           <Table width="80%" cellspacing="0" > <tr> <td>\n
-Action.c(111):               {firstName} {lastName}\n
-Action.c(111):     <br/>\n
-Action.c(111):               {address1}<br/>\n
-Action.c(111):               {address2}<br/>\n
-Action.c(111):               <br/>\n
-Action.c(111):               Total Charge: $ 0 <BR/> (CC: x-ard})\n
-Action.c(111):           </td> </tr> </table>\n
-Action.c(111):           </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="3">\n
-Action.c(111):       <b>Flight Details:</b><BR/>  <center>\n
-Action.c(111):        :  8am : Flight {outboundFlight}\n
-Action.c(111):      leaves Denver  for Denver.<br>  </center>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     \n
-Action.c(111):     <TR bgcolor="#EFF2F7">\n
-Action.c(111):       <TD COLSPAN="4">\n
-Action.c(111):       <hr/>\n
-Action.c(111):       </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     <TR>\n
-Action.c(111):        <TD align="center" COLSPAN="4">\n
-Action.c(111):        <b>A total of 15 scheduled flights.</font></b>\n
-Action.c(111):        </TD>\n
-Action.c(111):     </TR>\n
-Action.c(111):     </TABLE>\n
-Action.c(111):     \n
-Action.c(111):     <TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">\n
-Action.c(111):     <TR>\n
-Action.c(111):     <TD align="left" width="50%" >\n
-Action.c(111):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
-Action.c(111):     er="0" /></TD>\n
-Action.c(111):     <TD align="right" width="50%" >\n
-Action.c(111):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
-Action.c(111):     f" border="0" /></TD>\n
-Action.c(111):     </TABLE>\n
-Action.c(111):     \n
-Action.c(111):     <div><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifi
-Action.c(111):     elds" value="11"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidde
-Action.c(111):     n" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="9"  /><inp
-Action.c(111):     ut type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" va
-Action.c(111):     lue="2"  /><input type="hidden" name=".cgifields" value="15"  /><input type="hidden" name=
-Action.c(111):     ".cgifields" value="14"  /><input type="hidden" name=".cgifields" value="8"  /><input type
-Action.c(111):     ="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="4" 
-Action.c(111):      /><input type="hidden" name=".cgifields" value="13"  /><input type="hidden" name=".cgifie
-Action.c(111):     lds" value="10"  /><input type="hidden" name=".cgifields" value="5"  /></div></form>\n
-Action.c(111):     \n
-Action.c(111):     </center>\n
-Action.c(111):     \n
-Action.c(111):     </body>\n
-Action.c(111):     </html>
-Action.c(111): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(111): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(111): t=5621ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=22)
-Action.c(111):     HTTP/1.1 200 OK\r\n
-Action.c(111):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(111):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(111):     ETag: "300000003b933-33f-4b654c052c2c0"\r\n
-Action.c(111):     Accept-Ranges: bytes\r\n
-Action.c(111):     Content-Length: 831\r\n
-Action.c(111):     Keep-Alive: timeout=5, max=93\r\n
-Action.c(111):     Connection: Keep-Alive\r\n
-Action.c(111):     Content-Type: image/gif\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5623ms: 831-byte response body for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=22)
-Action.c(111): t=5625ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=23)
-Action.c(111):     HTTP/1.1 200 OK\r\n
-Action.c(111):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(111):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(111):     ETag: "300000003b931-2e6-4b654c052c2c0"\r\n
-Action.c(111):     Accept-Ranges: bytes\r\n
-Action.c(111):     Content-Length: 742\r\n
-Action.c(111):     Keep-Alive: timeout=5, max=94\r\n
-Action.c(111):     Connection: Keep-Alive\r\n
-Action.c(111):     Content-Type: image/gif\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5627ms: 742-byte response body for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=23)
-Action.c(111): t=5630ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=21)
-Action.c(111):     HTTP/1.1 200 OK\r\n
-Action.c(111):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(111):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(111):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
-Action.c(111):     ETag: "500000003b939-2b0-4b654c052c2c0"\r\n
-Action.c(111):     Accept-Ranges: bytes\r\n
-Action.c(111):     Content-Length: 688\r\n
-Action.c(111):     Keep-Alive: timeout=5, max=98\r\n
-Action.c(111):     Connection: Keep-Alive\r\n
-Action.c(111):     Content-Type: image/gif\r\n
-Action.c(111):     \r\n
-Action.c(111): t=5635ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=21)
-Action.c(111): Registered web_reg_find successful for "Text=Flights List" (count=1)  	[MsgId: MMSG-26364]
-Action.c(111): web_url("Itinerary Button") was successful, 24378 body bytes, 1913 header bytes, 67 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(121): Notify: Transaction "click_itinerary" ended with a "Pass" status (Duration: 0.6359 Wasted Time: 0.0127).
-Action.c(123): Notify: Transaction "logout" started.
-Action.c(125): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
-Action.c(125): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
-Action.c(125): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
-Action.c(129): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(129): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(133): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
-Action.c(133): t=6086ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
-Action.c(133):     HTTP/1.1 200 OK\r\n
-Action.c(133):     Date: Fri, 18 Sep 2020 13:20:35 GMT\r\n
-Action.c(133):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(133):     Set-Cookie: MSO=SID&1600435235; path=/\r\n
-Action.c(133):     Set-Cookie: MTUserInfo=; path=/; expires=Thu, 17-Sep-2020 13:20:35 GMT\r\n
-Action.c(133):     Keep-Alive: timeout=5, max=92\r\n
-Action.c(133):     Connection: Keep-Alive\r\n
-Action.c(133):     Transfer-Encoding: chunked\r\n
-Action.c(133):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(133):     \r\n
-Action.c(133): t=6089ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
-Action.c(133):     2ae\r\n
-Action.c(133): t=6089ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
-Action.c(133):     \r\n
-Action.c(133): t=6090ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
-Action.c(133):     <!-- \n
-Action.c(133):      A Session ID has been created and loaded into a cookie called MSO.\n
-Action.c(133):      Also, the server options have been loaded into the cookie called\n
-Action.c(133):      MSO as well.  The server options can be set via the Admin page.\n
-Action.c(133):      --->\n
-Action.c(133):     \n
-Action.c(133):     <html>\n
-Action.c(133):     <title>Web Tours</title>\n
-Action.c(133):        <!-- Frame Set -->\n
-Action.c(133):        <frameset cols="160,*" border="1" frameborder="1">\n
-Action.c(133):           <!-- Navigation Frame -->\n
-Action.c(133):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
-Action.c(133):                 noresize="noresize" scrolling="auto"/>\n
-Action.c(133):           <!-- Home Frame -->\n
-Action.c(133):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
-Action.c(133):                 noresize="noresize" scrolling="auto"/>\n
-Action.c(133):        </frameset>\n
-Action.c(133):     </html>\n
-Action.c(133):     \n
-Action.c(133):     </body>\n
-Action.c(133):     </html>
-Action.c(133): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
-Action.c(133): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
-Action.c(133): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
-Action.c(133): t=6093ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=26)
-Action.c(133):     <HTML>\n
-Action.c(133):     <HEAD>\n
-Action.c(133):     \t<title>Web Tours</title>\n
-Action.c(133):     </HEAD>\n
-Action.c(133):     <style>\n
-Action.c(133):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
-Action.c(133):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
-Action.c(133):     \tsmall {font-family: tahoma; font-size : 8pt}\n
-Action.c(133):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(133):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
-Action.c(133):     N: none}\n
-Action.c(133):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
-Action.c(133):     CORATION: underline}\n
-Action.c(133):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(133):     </style>\n
-Action.c(133):     <body bgcolor="#e0e7f1">\n
-Action.c(133):     <BR/>\n
-Action.c(133):     <BR/>\n
-Action.c(133):     <BR/>\n
-Action.c(133):     <br/>\n
-Action.c(133):     <table border="0">\n
-Action.c(133):     <tr><td></td></tr>\n
-Action.c(133):     <TR><TD></TD></TR>\n
-Action.c(133):     <TR><TD>\n
-Action.c(133):     <blockquote>\n
-Action.c(133):     <H1><b>Web Tours</b></H1>\n
-Action.c(133):     Welcome to the Web Tours site.\n
-Action.c(133):     <br/>\n
-Action.c(133):     To make reservations,please enter your account information to the left.\n
-Action.c(133):     <br/>\n
-Action.c(133):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
-Action.c(133):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
-Action.c(133):     <br/>\n
-Action.c(133):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
-Action.c(133):     tration</b></A> link.\n
-Action.c(133):     <br/><br/><br/><br/><br/><br/>\n
-Action.c(133):     <br/><small>\n
-Action.c(133):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
-Action.c(133):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
-Action.c(133):     </small>\n
-Action.c(133):     </blockquote></TD>\n
-Action.c(133):     <TD></TD></TR>\n
-Action.c(133):     </table>\n
-Action.c(133):     </body>\n
-Action.c(133):     </HTML>\n
-Action.c(133): t=6098ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
-Action.c(133):     0\r\n
-Action.c(133):     \r\n
-Action.c(133): t=6155ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
-Action.c(133):     HTTP/1.1 200 OK\r\n
-Action.c(133):     Date: Fri, 18 Sep 2020 13:20:36 GMT\r\n
-Action.c(133):     Server: Apache/2.2.21 (Win32)\r\n
-Action.c(133):     Expires: Thu, 17 Sep 2020 13:20:36 GMT\r\n
-Action.c(133):     Keep-Alive: timeout=5, max=93\r\n
-Action.c(133):     Connection: Keep-Alive\r\n
-Action.c(133):     Transfer-Encoding: chunked\r\n
-Action.c(133):     Content-Type: text/html; charset=ISO-8859-1\r\n
-Action.c(133):     \r\n
-Action.c(133): t=6156ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
-Action.c(133):     5d1\r\n
-Action.c(133): t=6156ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
-Action.c(133):     \r\n
-Action.c(133): t=6157ms: 1489-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
-Action.c(133):     <!DOCTYPE html\n
-Action.c(133):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
-Action.c(133):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
-Action.c(133):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
-Action.c(133):     <head>\n
-Action.c(133):     <title>Web Tours Navigation Bar</title>\n
-Action.c(133):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
-Action.c(133):     </head>\n
-Action.c(133):     <body bgcolor="#E0E7F1">\n
-Action.c(133):     <style>\n
-Action.c(133):     blockquote {font-family: tahoma; font-size : 10pt}\n
-Action.c(133):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
-Action.c(133):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
-Action.c(133):     small {font-family: tahoma; font-size : 8pt}\n
-Action.c(133):     </style>\n
-Action.c(133):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
-Action.c(133):     <input type="hidden" name="userSession" value="129642.38436614zzzitiApVtfiDDDDtAAVApiiAiHf
-Action.c(133):     "/>\n
-Action.c(133):     <table border="0"><tr><td>&nbsp;</td>\n
-Action.c(133):     <td>&nbsp;</td></tr>\n
-Action.c(133):     <tr><td>&nbsp;</td>\n
-Action.c(133):     <td>&nbsp;</td></tr>\n
-Action.c(133):     <tr><td>&nbsp;</td>\n
-Action.c(133):     <td><small>&nbsp;Username</small></td></tr>\n
-Action.c(133):     <tr><td>&nbsp;</td>\n
-Action.c(133):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
-Action.c(133):     <tr><td>&nbsp;</td>\n
-Action.c(133):     <td><small>&nbsp;Password</small></td>\n
-Action.c(133):     <tr><td>&nbsp;</td>\n
-Action.c(133):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
-Action.c(133):     <tr><td>&nbsp;</td>\n
-Action.c(133):     <td>&nbsp;</td></tr>\n
-Action.c(133):     <tr><td>&nbsp;</td>\n
-Action.c(133):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
-Action.c(133):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
-Action.c(133):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
-Action.c(133):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
-Action.c(133):     </form>\n
-Action.c(133):     \n
-Action.c(133):     </body>\n
-Action.c(133):     </html>\n
-Action.c(133): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(133): t=6162ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
-Action.c(133):     0\r\n
-Action.c(133):     \r\n
-Action.c(133): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO." (count=1)  	[MsgId: MMSG-26364]
-Action.c(133): web_url("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(143): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0.1768 Wasted Time: 0.0067).
-Action.c(145): Notify: Transaction "UC_02_Check_Itinerary" ended with a "Pass" status (Duration: 5.9677 Wasted Time: 0.2380).
+Action.c(26): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(26): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(31): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(31): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(34): t=359ms: 267-byte response headers for "http://localhost:1080/WebTours" (RelFrameId=1, Internal ID=1)
+Action.c(34):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:36 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Location: http://localhost:1080/WebTours/\r\n
+Action.c(34):     Content-Length: 239\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Content-Type: text/html; charset=iso-8859-1\r\n
+Action.c(34):     \r\n
+Action.c(34): t=387ms: 239-byte response body for "http://localhost:1080/WebTours" (RelFrameId=1, Internal ID=1)
+Action.c(34):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">\n
+Action.c(34):     <html><head>\n
+Action.c(34):     <title>301 Moved Permanently</title>\n
+Action.c(34):     </head><body>\n
+Action.c(34):     <h1>Moved Permanently</h1>\n
+Action.c(34):     <p>The document has moved <a href="http://localhost:1080/WebTours/">here</a>.</p>\n
+Action.c(34):     </body></html>\n
+Action.c(34): Redirecting "http://localhost:1080/WebTours" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(34): To location "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26693]
+Action.c(34): t=409ms: 298-byte response headers for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=2)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:36 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
+Action.c(34):     ETag: "300000003b957-16e-4ddb1559ac980"\r\n
+Action.c(34):     Accept-Ranges: bytes\r\n
+Action.c(34):     Content-Length: 366\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Content-Type: text/html\r\n
+Action.c(34):     \r\n
+Action.c(34): t=419ms: 366-byte response body for "http://localhost:1080/WebTours/" (RelFrameId=1, Internal ID=2)
+Action.c(34):     <HTML>\n
+Action.c(34):     <HEAD>\n
+Action.c(34):     <title>Web Tours</title>\n
+Action.c(34):     <frameset rows = "65,*" border="1" bordercolor="#E0E7F1">\n
+Action.c(34):     <frame name="header" src="header.html" scrolling="no" noresize="noresize" marginheight="2"
+Action.c(34):      marginwidth="2"/>\n
+Action.c(34):     <frame name="body" src="/cgi-bin/welcome.pl?signOff=true" scrolling="auto" noresize="nores
+Action.c(34):     ize" marginheight="2" marginwidth="2" />\n
+Action.c(34):     </frameset>\n
+Action.c(34):     </HEAD>\n
+Action.c(34):     </HTML>\n
+Action.c(34):     \n
+Action.c(34): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(34): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(34): t=425ms: 297-byte response headers for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=3)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:36 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
+Action.c(34):     ETag: "900000003b92b-2c6-4ddb1559ac980"\r\n
+Action.c(34):     Accept-Ranges: bytes\r\n
+Action.c(34):     Content-Length: 710\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Content-Type: text/html\r\n
+Action.c(34):     \r\n
+Action.c(34): t=428ms: 710-byte response body for "http://localhost:1080/WebTours/header.html" (RelFrameId=1.1, Internal ID=3)
+Action.c(34):     <!DOCTYPE html>\n
+Action.c(34):     <HTML xmlns="http://www.w3.org/1999/xhtml">\n
+Action.c(34):     <HEAD></HEAD>\n
+Action.c(34):     <BODY bgcolor="#003366" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+Action.c(34):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+Action.c(34):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+Action.c(34):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+Action.c(34):     \t\t\t<tr>\n
+Action.c(34):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" 
+Action.c(34):     height="45" width="69" align="absmiddle" border="0"/><img src="images/webtours.png" alt=""
+Action.c(34):      height="45" width="130" align="absmiddle" border="0"/></td>\n
+Action.c(34):     \t\t\t\t<td align="right"></td>\n
+Action.c(34):     \t\t\t\t<td></td>\n
+Action.c(34):     \t\t\t</tr>\n
+Action.c(34):     \t\t</table>\n
+Action.c(34):     \t</BODY>\n
+Action.c(34):     </HTML>
+Action.c(34): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(34): t=465ms: 297-byte response headers for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=5)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:36 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(34):     ETag: "900000003b93b-259-4b654c052c2c0"\r\n
+Action.c(34):     Accept-Ranges: bytes\r\n
+Action.c(34):     Content-Length: 601\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Content-Type: image/png\r\n
+Action.c(34):     \r\n
+Action.c(34): t=467ms: 601-byte response body for "http://localhost:1080/WebTours/images/hp_logo.png" (RelFrameId=, Internal ID=5)
+Action.c(34): t=493ms: 300-byte response headers for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=6)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:37 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Last-Modified: Mon, 04 Nov 2013 13:47:02 GMT\r\n
+Action.c(34):     ETag: "400000003b954-105b-4ea5a26938180"\r\n
+Action.c(34):     Accept-Ranges: bytes\r\n
+Action.c(34):     Content-Length: 4187\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Content-Type: image/png\r\n
+Action.c(34):     \r\n
+Action.c(34): t=495ms: 4187-byte response body for "http://localhost:1080/WebTours/images/webtours.png" (RelFrameId=, Internal ID=6)
+Action.c(34): t=512ms: 328-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:36 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Set-Cookie: MSO=SID&1600611577; path=/\r\n
+Action.c(34):     Set-Cookie: MTUserInfo=; path=/; expires=Sat, 19-Sep-2020 14:19:37 GMT\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Transfer-Encoding: chunked\r\n
+Action.c(34):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(34):     \r\n
+Action.c(34): t=513ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
+Action.c(34):     2ae\r\n
+Action.c(34): t=513ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
+Action.c(34):     \r\n
+Action.c(34): t=514ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
+Action.c(34):     <!-- \n
+Action.c(34):      A Session ID has been created and loaded into a cookie called MSO.\n
+Action.c(34):      Also, the server options have been loaded into the cookie called\n
+Action.c(34):      MSO as well.  The server options can be set via the Admin page.\n
+Action.c(34):      --->\n
+Action.c(34):     \n
+Action.c(34):     <html>\n
+Action.c(34):     <title>Web Tours</title>\n
+Action.c(34):        <!-- Frame Set -->\n
+Action.c(34):        <frameset cols="160,*" border="1" frameborder="1">\n
+Action.c(34):           <!-- Navigation Frame -->\n
+Action.c(34):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Action.c(34):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(34):           <!-- Home Frame -->\n
+Action.c(34):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Action.c(34):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(34):        </frameset>\n
+Action.c(34):     </html>\n
+Action.c(34):     \n
+Action.c(34):     </body>\n
+Action.c(34):     </html>
+Action.c(34): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(34): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(34): t=580ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1.2, Internal ID=4)
+Action.c(34):     0\r\n
+Action.c(34):     \r\n
+Action.c(34): t=651ms: 298-byte response headers for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=8)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:37 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
+Action.c(34):     ETag: "700000003b92c-551-4ddb1559ac980"\r\n
+Action.c(34):     Accept-Ranges: bytes\r\n
+Action.c(34):     Content-Length: 1361\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Content-Type: text/html\r\n
+Action.c(34):     \r\n
+Action.c(34): t=653ms: 1361-byte response body for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2.2, Internal ID=8)
+Action.c(34):     <HTML>\n
+Action.c(34):     <HEAD>\n
+Action.c(34):     \t<title>Web Tours</title>\n
+Action.c(34):     </HEAD>\n
+Action.c(34):     <style>\n
+Action.c(34):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(34):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Action.c(34):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(34):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(34):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(34):     N: none}\n
+Action.c(34):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(34):     CORATION: underline}\n
+Action.c(34):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(34):     </style>\n
+Action.c(34):     <body bgcolor="#e0e7f1">\n
+Action.c(34):     <BR/>\n
+Action.c(34):     <BR/>\n
+Action.c(34):     <BR/>\n
+Action.c(34):     <br/>\n
+Action.c(34):     <table border="0">\n
+Action.c(34):     <tr><td></td></tr>\n
+Action.c(34):     <TR><TD></TD></TR>\n
+Action.c(34):     <TR><TD>\n
+Action.c(34):     <blockquote>\n
+Action.c(34):     <H1><b>Web Tours</b></H1>\n
+Action.c(34):     Welcome to the Web Tours site.\n
+Action.c(34):     <br/>\n
+Action.c(34):     To make reservations,please enter your account information to the left.\n
+Action.c(34):     <br/>\n
+Action.c(34):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+Action.c(34):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+Action.c(34):     <br/>\n
+Action.c(34):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+Action.c(34):     tration</b></A> link.\n
+Action.c(34):     <br/><br/><br/><br/><br/><br/>\n
+Action.c(34):     <br/><small>\n
+Action.c(34):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Action.c(34):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+Action.c(34):     </small>\n
+Action.c(34):     </blockquote></TD>\n
+Action.c(34):     <TD></TD></TR>\n
+Action.c(34):     </table>\n
+Action.c(34):     </body>\n
+Action.c(34):     </HTML>\n
+Action.c(34): t=727ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:37 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Expires: Sat, 19 Sep 2020 14:19:37 GMT\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Transfer-Encoding: chunked\r\n
+Action.c(34):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(34):     \r\n
+Action.c(34): t=729ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Action.c(34):     5d2\r\n
+Action.c(34): t=729ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Action.c(34):     \r\n
+Action.c(34): t=729ms: 1490-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Action.c(34):     <!DOCTYPE html\n
+Action.c(34):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(34):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(34):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(34):     <head>\n
+Action.c(34):     <title>Web Tours Navigation Bar</title>\n
+Action.c(34):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(34):     </head>\n
+Action.c(34):     <body bgcolor="#E0E7F1">\n
+Action.c(34):     <style>\n
+Action.c(34):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(34):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(34):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(34):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(34):     </style>\n
+Action.c(34):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(34):     <input type="hidden" name="userSession" value="129656.668853787zzzQcVtpQAtVzzzHtAAVfpciQtc
+Action.c(34):     f"/>\n
+Action.c(34):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(34):     <td>&nbsp;</td></tr>\n
+Action.c(34):     <tr><td>&nbsp;</td>\n
+Action.c(34):     <td>&nbsp;</td></tr>\n
+Action.c(34):     <tr><td>&nbsp;</td>\n
+Action.c(34):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(34):     <tr><td>&nbsp;</td>\n
+Action.c(34):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(34):     <tr><td>&nbsp;</td>\n
+Action.c(34):     <td><small>&nbsp;Password</small></td>\n
+Action.c(34):     <tr><td>&nbsp;</td>\n
+Action.c(34):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(34):     <tr><td>&nbsp;</td>\n
+Action.c(34):     <td>&nbsp;</td></tr>\n
+Action.c(34):     <tr><td>&nbsp;</td>\n
+Action.c(34):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(34):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(34):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(34):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(34):     </form>\n
+Action.c(34):     \n
+Action.c(34):     </body>\n
+Action.c(34):     </html>\n
+Action.c(34): Notify: Saving Parameter "userSession = 129656.668853787zzzQcVtpQAtVzzzHtAAVfpciQtcf".
+Action.c(34): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(34): t=735ms: 297-byte response headers for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=9)
+Action.c(34):     HTTP/1.1 200 OK\r\n
+Action.c(34):     Date: Sun, 20 Sep 2020 14:19:37 GMT\r\n
+Action.c(34):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(34):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(34):     ETag: "300000003b946-2a7-4b654c052c2c0"\r\n
+Action.c(34):     Accept-Ranges: bytes\r\n
+Action.c(34):     Content-Length: 679\r\n
+Action.c(34):     Keep-Alive: timeout=5, max=97\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Content-Type: image/gif\r\n
+Action.c(34):     \r\n
+Action.c(34): t=737ms: 679-byte response body for "http://localhost:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=9)
+Action.c(34): t=773ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.2.1, Internal ID=7)
+Action.c(34):     0\r\n
+Action.c(34):     \r\n
+Action.c(34): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
+Action.c(34): web_url("WebTours") was successful, 10319 body bytes, 2637 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(44): Notify: Transaction "connect" ended with a "Pass" status (Duration: 4.6539 Wasted Time: 0.2703).
+Action.c(46): Notify: Transaction "login" started.
+Action.c(48): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(48): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Action.c(48): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(50): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(50): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(53): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(53): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(53): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(55): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(55): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(58): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(63): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(63): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(67): Notify: Parameter Substitution: parameter "userSession" =  "129656.668853787zzzQcVtpQAtVzzzHtAAVfpciQtcf"
+Action.c(67): Notify: Parameter Substitution: parameter "login" =  "jojo3"
+Action.c(67): Notify: Next row for parameter password = 1 [table  = password].
+Action.c(67): Notify: Parameter Substitution: parameter "password" =  "bean3"
+Action.c(67): t=5009ms: 385-byte response headers for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
+Action.c(67):     HTTP/1.1 200 OK\r\n
+Action.c(67):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(67):     Expires: 5s\r\n
+Action.c(67):     Set-Cookie: MTUserInfo=firstName&Alexandr&address2&Moscow&username&jojo3&hash&83&lastName&
+Action.c(67):     Ivanov%0A&address1&ulica%20Lenina&creditCard&&expDate&%0A; path=/\r\n
+Action.c(67):     Keep-Alive: timeout=5, max=97\r\n
+Action.c(67):     Connection: Keep-Alive\r\n
+Action.c(67):     Transfer-Encoding: chunked\r\n
+Action.c(67):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5034ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
+Action.c(67):     1e1\r\n
+Action.c(67): t=5035ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
+Action.c(67):     \r\n
+Action.c(67): t=5035ms: 481-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
+Action.c(67):     <!--\n
+Action.c(67):     User password was correct - added a cookie with the user's default\n
+Action.c(67):     information.  Set the user up to make reservations...\n
+Action.c(67):     \n
+Action.c(67):     --->\n
+Action.c(67):     \n
+Action.c(67):     <html>\n
+Action.c(67):     <title>Web Tours</title>\n
+Action.c(67):     <frameset cols="160,*" border=1 frameborder=1>\n
+Action.c(67):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+Action.c(67):     ize="noresize" scrolling="auto"/>\n
+Action.c(67):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+Action.c(67):     resize" scrolling="auto"/>\n
+Action.c(67):     </frameset>\n
+Action.c(67):     \n
+Action.c(67):     </body>\n
+Action.c(67):     </html>
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(67): t=5038ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=10)
+Action.c(67):     0\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5123ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
+Action.c(67):     HTTP/1.1 200 OK\r\n
+Action.c(67):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(67):     Expires: Sat, 19 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Keep-Alive: timeout=5, max=96\r\n
+Action.c(67):     Connection: Keep-Alive\r\n
+Action.c(67):     Transfer-Encoding: chunked\r\n
+Action.c(67):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5125ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
+Action.c(67):     5ca\r\n
+Action.c(67): t=5125ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
+Action.c(67):     \r\n
+Action.c(67): t=5126ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
+Action.c(67):     <!DOCTYPE html\n
+Action.c(67):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(67):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(67):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(67):     <head>\n
+Action.c(67):     <title>Web Tours Navigation Bar</title>\n
+Action.c(67):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(67):     </head>\n
+Action.c(67):     <body bgcolor="#E0E7F1">\n
+Action.c(67):     \n
+Action.c(67):     <style>\n
+Action.c(67):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(67):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(67):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(67):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(67):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(67):     N: none}\n
+Action.c(67):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(67):     CORATION: underline}\n
+Action.c(67):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(67):     </style>\n
+Action.c(67):     \n
+Action.c(67):     <BR><BR><center>\n
+Action.c(67):     \n
+Action.c(67):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+Action.c(67):     RC="/WebTours/images/flights.gif" \n
+Action.c(67):     ALT="Search Flights Button"/></A>\n
+Action.c(67):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+Action.c(67):     WebTours/images/itinerary.gif" \n
+Action.c(67):     ALT="Itinerary Button"/></A>\n
+Action.c(67):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+Action.c(67):     ours/images/in_home.gif" \n
+Action.c(67):     ALT="Home Button"/></A>\n
+Action.c(67):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+Action.c(67):     es/signoff.gif" \n
+Action.c(67):     ALT="SignOff Button"/></A></center>\n
+Action.c(67):     \n
+Action.c(67):     </body>\n
+Action.c(67):     </html>\n
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): t=5135ms: 297-byte response headers for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=14)
+Action.c(67):     HTTP/1.1 200 OK\r\n
+Action.c(67):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(67):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(67):     ETag: "500000003b943-2dd-4b654c052c2c0"\r\n
+Action.c(67):     Accept-Ranges: bytes\r\n
+Action.c(67):     Content-Length: 733\r\n
+Action.c(67):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(67):     Connection: Keep-Alive\r\n
+Action.c(67):     Content-Type: image/gif\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5138ms: 733-byte response body for "http://localhost:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=14)
+Action.c(67): t=5143ms: 297-byte response headers for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=13)
+Action.c(67):     HTTP/1.1 200 OK\r\n
+Action.c(67):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(67):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(67):     ETag: "300000003b934-2d6-4b654c052c2c0"\r\n
+Action.c(67):     Accept-Ranges: bytes\r\n
+Action.c(67):     Content-Length: 726\r\n
+Action.c(67):     Keep-Alive: timeout=5, max=96\r\n
+Action.c(67):     Connection: Keep-Alive\r\n
+Action.c(67):     Content-Type: image/gif\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5147ms: 726-byte response body for "http://localhost:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=13)
+Action.c(67): t=5149ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=11)
+Action.c(67):     0\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5158ms: 228-byte response headers for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
+Action.c(67):     HTTP/1.1 200 OK\r\n
+Action.c(67):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(67):     Expires: 5s\r\n
+Action.c(67):     Keep-Alive: timeout=5, max=99\r\n
+Action.c(67):     Connection: Keep-Alive\r\n
+Action.c(67):     Transfer-Encoding: chunked\r\n
+Action.c(67):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5159ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
+Action.c(67):     397\r\n
+Action.c(67): t=5159ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
+Action.c(67):     \r\n
+Action.c(67):     0\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5161ms: 919-byte chunked response body for "http://localhost:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=12)
+Action.c(67):     <!DOCTYPE html\n
+Action.c(67):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(67):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(67):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(67):     <head>\n
+Action.c(67):     <title>Welcome to Web Tours</title>\n
+Action.c(67):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(67):     </head>\n
+Action.c(67):     <body bgcolor="#E0E7F1">\n
+Action.c(67):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+Action.c(67):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+Action.c(67):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+Action.c(67):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo3</b>, to the Web Tours
+Action.c(67):      reservation pages.<BR/>Using the menu to the left, you can search for new flights to book
+Action.c(67):     , \n
+Action.c(67):     or review/edit the flights already booked.  Don't forget to sign off when\n
+Action.c(67):     you're done!\n
+Action.c(67):     </blockquote>\n
+Action.c(67):     </body>\n
+Action.c(67):     </html>
+Action.c(67): t=5169ms: 298-byte response headers for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=15)
+Action.c(67):     HTTP/1.1 200 OK\r\n
+Action.c(67):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(67):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(67):     ETag: "400000003b93d-2b0-4b654c052c2c0"\r\n
+Action.c(67):     Accept-Ranges: bytes\r\n
+Action.c(67):     Content-Length: 688\r\n
+Action.c(67):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(67):     Connection: Keep-Alive\r\n
+Action.c(67):     Content-Type: image/gif\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5175ms: 688-byte response body for "http://localhost:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=15)
+Action.c(67): t=5179ms: 298-byte response headers for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=16)
+Action.c(67):     HTTP/1.1 200 OK\r\n
+Action.c(67):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(67):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(67):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(67):     ETag: "300000003b94b-2ef-4b654c052c2c0"\r\n
+Action.c(67):     Accept-Ranges: bytes\r\n
+Action.c(67):     Content-Length: 751\r\n
+Action.c(67):     Keep-Alive: timeout=5, max=100\r\n
+Action.c(67):     Connection: Keep-Alive\r\n
+Action.c(67):     Content-Type: image/gif\r\n
+Action.c(67):     \r\n
+Action.c(67): t=5181ms: 751-byte response body for "http://localhost:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=16)
+Action.c(67): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(67): web_submit_data("login.pl") was successful, 5780 body bytes, 2058 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(84): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,4131 Wasted Time: 0,0890).
+Action.c(86): Notify: Transaction "click_itinerary" started.
+Action.c(88): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(88): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(91): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(91): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(96): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(100): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(100): t=5392ms: 215-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
+Action.c(100):     HTTP/1.1 200 OK\r\n
+Action.c(100):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(100):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(100):     Keep-Alive: timeout=5, max=95\r\n
+Action.c(100):     Connection: Keep-Alive\r\n
+Action.c(100):     Transfer-Encoding: chunked\r\n
+Action.c(100):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5407ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
+Action.c(100):     24f\r\n
+Action.c(100): t=5407ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
+Action.c(100):     \r\n
+Action.c(100): t=5408ms: 591-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
+Action.c(100):     <!-- \n
+Action.c(100):      User wants the intineraries.  Since user has already logged on,\n
+Action.c(100):      we can give them the menu in the navbar.\n
+Action.c(100):      --->\n
+Action.c(100):     \n
+Action.c(100):     <html>\n
+Action.c(100):     <title>Web Tours</title>\n
+Action.c(100):        <!-- Frame Set -->\n
+Action.c(100):        <frameset cols="160,*" border="1" frameborder="1">\n
+Action.c(100):           <!-- Navigation Frame -->\n
+Action.c(100):           <frame src="nav.pl?page=menu&in=itinerary" name="navbar" \n
+Action.c(100):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+Action.c(100):           <!-- Itinerary Frame -->\n
+Action.c(100):           <frame src="itinerary.pl" name="info" \n
+Action.c(100):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+Action.c(100):        </frameset>\n
+Action.c(100):     </html>\n
+Action.c(100): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(100): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(100): t=5410ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=17)
+Action.c(100):     0\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5487ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
+Action.c(100):     HTTP/1.1 200 OK\r\n
+Action.c(100):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(100):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(100):     Expires: Sat, 19 Sep 2020 14:19:41 GMT\r\n
+Action.c(100):     Keep-Alive: timeout=5, max=95\r\n
+Action.c(100):     Connection: Keep-Alive\r\n
+Action.c(100):     Transfer-Encoding: chunked\r\n
+Action.c(100):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5488ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
+Action.c(100):     5ca\r\n
+Action.c(100): t=5488ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
+Action.c(100):     \r\n
+Action.c(100): t=5489ms: 1482-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
+Action.c(100):     <!DOCTYPE html\n
+Action.c(100):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(100):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(100):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(100):     <head>\n
+Action.c(100):     <title>Web Tours Navigation Bar</title>\n
+Action.c(100):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(100):     </head>\n
+Action.c(100):     <body bgcolor="#E0E7F1">\n
+Action.c(100):     \n
+Action.c(100):     <style>\n
+Action.c(100):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(100):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(100):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(100):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(100):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(100):     N: none}\n
+Action.c(100):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(100):     CORATION: underline}\n
+Action.c(100):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(100):     </style>\n
+Action.c(100):     \n
+Action.c(100):     <BR><BR><center>\n
+Action.c(100):     \n
+Action.c(100):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+Action.c(100):     RC="/WebTours/images/flights.gif" \n
+Action.c(100):     ALT="Search Flights Button"/></A>\n
+Action.c(100):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+Action.c(100):     WebTours/images/in_itinerary.gif" \n
+Action.c(100):     ALT="Itinerary Button"/></A>\n
+Action.c(100):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+Action.c(100):     ours/images/home.gif" \n
+Action.c(100):     ALT="Home Button"/></A>\n
+Action.c(100):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+Action.c(100):     es/signoff.gif" \n
+Action.c(100):     ALT="SignOff Button"/></A></center>\n
+Action.c(100):     \n
+Action.c(100):     </body>\n
+Action.c(100):     </html>\n
+Action.c(100): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(100): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(100): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): t=5497ms: 297-byte response headers for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=21)
+Action.c(100):     HTTP/1.1 200 OK\r\n
+Action.c(100):     Date: Sun, 20 Sep 2020 14:19:42 GMT\r\n
+Action.c(100):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(100):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(100):     ETag: "500000003b939-2b0-4b654c052c2c0"\r\n
+Action.c(100):     Accept-Ranges: bytes\r\n
+Action.c(100):     Content-Length: 688\r\n
+Action.c(100):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(100):     Connection: Keep-Alive\r\n
+Action.c(100):     Content-Type: image/gif\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5500ms: 688-byte response body for "http://localhost:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=21)
+Action.c(100): t=5505ms: 297-byte response headers for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=20)
+Action.c(100):     HTTP/1.1 200 OK\r\n
+Action.c(100):     Date: Sun, 20 Sep 2020 14:19:42 GMT\r\n
+Action.c(100):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(100):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(100):     ETag: "300000003b93e-2dd-4b654c052c2c0"\r\n
+Action.c(100):     Accept-Ranges: bytes\r\n
+Action.c(100):     Content-Length: 733\r\n
+Action.c(100):     Keep-Alive: timeout=5, max=94\r\n
+Action.c(100):     Connection: Keep-Alive\r\n
+Action.c(100):     Content-Type: image/gif\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5509ms: 733-byte response body for "http://localhost:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=20)
+Action.c(100): t=5512ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=18)
+Action.c(100):     0\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5516ms: 255-byte response headers for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     HTTP/1.1 200 OK\r\n
+Action.c(100):     Date: Sun, 20 Sep 2020 14:19:41 GMT\r\n
+Action.c(100):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(100):     Expires: Sat, 19 Sep 2020 14:19:42 GMT\r\n
+Action.c(100):     Keep-Alive: timeout=5, max=98\r\n
+Action.c(100):     Connection: Keep-Alive\r\n
+Action.c(100):     Transfer-Encoding: chunked\r\n
+Action.c(100):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5517ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     f84\r\n
+Action.c(100): t=5517ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     \r\n
+Action.c(100):     1000\r\n
+Action.c(100): t=5518ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     \r\n
+Action.c(100):     1000\r\n
+Action.c(100): t=5519ms: 12011-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     <!DOCTYPE html\n
+Action.c(100):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(100):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(100):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(100):     <head>\n
+Action.c(100):     <title>Flights List</title>\n
+Action.c(100):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(100):     </head>\n
+Action.c(100):     <body bgcolor="#E0E7F1">\n
+Action.c(100):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(100):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(100):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Action.c(100):     </style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><block
+Action.c(100):     quote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded
+Action.c(100):     ">\n
+Action.c(100):     <center>\n
+Action.c(100):     <TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">\n
+Action.c(100):     <TR bgcolor="#5E7884">\n
+Action.c(100):       <TD colspan="4" align="center"><font color="white"><B> 1 's Flight Transaction Summary</
+Action.c(100):     B></color></TD></TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-0-1"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;  class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>      <li><i>{creditCard}      <li><i>{randomMonth} / {randomYear}\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                1<br/>\n
+Action.c(100):               ;{firstName} {lastName}<br/>\n
+Action.c(100):               ;{outboundFlight}<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       1 :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="2" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-1-{"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;  class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>Alexandr Ivanov121      <li><i>3430      <li><i>0      <li><i>0\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                {outboundFlight}\n
+Action.c(100):     <br/>\n
+Action.c(100):               ;andr;Ivanov<br/>\n
+Action.c(100):               ;;ulica Lenina<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):        :  8am : Flight Alexandr leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="3" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-2-5"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; Alexandr Ivanov0110 class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     andr      <li><i>Ivanov\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                5469580000000000<br/>\n
+Action.c(100):               ;;ulica Lenina<br/>\n
+Action.c(100):               ;;0000;9/21<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-3)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       ulica Lenina\n
+Action.c(100):      :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="4" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-0-54"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; {firstName} {lastName}\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>{outboundFlight}\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               5469580000000000 4/23\n
+Action.c(100):     <br/>\n
+Action.c(100):               ;4;Business;Alexandr Ivanov011;;{address1}<br/>\n
+Action.c(100):               ;{creditCard};{randomMonth} / {randomYear}<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):        :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="5" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-3-"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; {outboundFlight}\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>      <li><i>Alexandr      <li><i>Ivanov\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                <br/>\n
+Action.c(100):               ;;{creditCard};{randomMonth} / {randomYear}<br/>\n
+Action.c(100):               ;1;Coach;None<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):        :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="6" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-4-4"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;  class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     0000      <li><i>6/22\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                4<br/>\n
+Action.c(100):               ;Alexandr Ivanov231;6880;0;0<br/>\n
+Action.c(100):               Alexandr;Ivanov<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       None\n
+Action.c(100):      :  11pm : Flight 3 leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="7" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-5.80535230769231e+016-AI"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;Alexandr Ivanov\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>      <li><i>      <li><i>ulica Lenina\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               Alexandr Ivanov\n
+Action.c(100):     <br/>\n
+Action.c(100):               ;;ulica Lenina<br/>\n
+Action.c(100):               ;5469580000000000;5/21<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):        :  8am : Flight  leaves Denver  for Denver.<br>   :  8am : Flight 5469580000000000 leav
+Action.c(100):     es Zurich  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="8" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-61-3C"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; 1 class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>{firstName} {lastName}\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               3 Coach<br/>\n
+Action.c(100):               ;Alexandr Ivanov0110;;{address1}<br/>\n
+Action.c(100):               {address2}<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):        :  8am : Flight {outboundFlight}\n
+Action.c(100):      leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="9" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-6-{"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; {firstName} {lastName}\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     {outboundFlight}\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                {address1}\n
+Action.c(100):     <br/>\n
+Action.c(100):               {address2}<br/>\n
+Action.c(100):               ;;{creditCard};{randomMonth} / {randomYear}<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       Ivanov\n
+Action.c(100):      :  8am : Flight 0 leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="10" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-0-M"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;341 733 class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     0      <li><i>0Alexandr      <li><i>Ivanov\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               Moscow\n
+Action.c(100):      <br/>\n
+Action.c(100):               ;;5469580000000000;9/25<br/>\n
+Action.c(100):               ;4;First;Aisle<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):        :  8am : Flight  leaves
+Action.c(100): t=5559ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     \r\n
+Action.c(100):     1000\r\n
+Action.c(100): t=5560ms: 8-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     \r\n
+Action.c(100):     1000\r\n
+Action.c(100): t=5560ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     \r\n
+Action.c(100):     cc8\r\n
+Action.c(100): t=5560ms: 7-byte chunked response overhead for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):     \r\n
+Action.c(100):     0\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5561ms: 11617-byte chunked response body for "http://localhost:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=19)
+Action.c(100):      Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="11" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="12-8-"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;0 0Alexandr class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>ulica Lenina\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                <br/>\n
+Action.c(100):               ;4;First;Aisle<br/>\n
+Action.c(100):               ;Alexandr Ivanov;Alexandr Ivanov;Alexandr Ivanov;Alexandr Ivanov<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-341)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):        :  8am : Flight Moscow\n
+Action.c(100):      leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="12" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-9-3"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; ulica Lenina\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     Moscow\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                3<br/>\n
+Action.c(100):               ;Alexandr Ivanov;Alexandr Ivanov;Alexandr Ivanov<br/>\n
+Action.c(100):               011;644;09/20/2020<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-0)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       5469580000000000 :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="13" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-10-A"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;Moscow\n
+Action.c(100):       class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>      <li><i>5469580000000000      <li><i>11/24\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):                Alexandr Ivanov<br/>\n
+Action.c(100):               011;644;09/20/2020<br/>\n
+Action.c(100):               0;0Alexandr;Ivanov<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       First :  8am : Flight  leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="14" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="0-10777-06"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp;  class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>4      <li><i>First      <li><i>Aisle\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               011 644<br/>\n
+Action.c(100):               0;0Alexandr;Ivanov<br/>\n
+Action.c(100):               ;ulica Lenina<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-cow\n
+Action.c(100):     )\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       Alexandr Ivanov :  8am : Flight  leaves Denver  for Denver.<br>  09/20/2020\n
+Action.c(100):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="15" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="431-115-00"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; 3 class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):           <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov      <li><i>Alexandr Ivanov\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               0 0Alexandr<br/>\n
+Action.c(100):               ;ulica Lenina<br/>\n
+Action.c(100):               Moscow<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       09/20/2020\n
+Action.c(100):      :  1pm : Flight 011 leaves Denver  for Frankfurt.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="16" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="3-1-{"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; {firstName} {lastName}\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     {outboundFlight}\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               {address1}\n
+Action.c(100):      <br/>\n
+Action.c(100):               {address2}<br/>\n
+Action.c(100):               {creditCard};{randomMonth} / {randomYear}<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-1)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       0\n
+Action.c(100):      :  8am : Flight 0 leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="17" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="3-1-{"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; {firstName} {lastName}\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     {outboundFlight}\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               {address1}\n
+Action.c(100):      <br/>\n
+Action.c(100):               {address2}<br/>\n
+Action.c(100):               {creditCard};{randomMonth} / {randomYear}<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-1)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       0\n
+Action.c(100):      :  8am : Flight 0 leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="18" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="3-1-a"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; firstName lastName\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     {outboundFlight}\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               address1\n
+Action.c(100):      <br/>\n
+Action.c(100):               address2<br/>\n
+Action.c(100):               creditCard;randomMonth / randomYear<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-1)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       0\n
+Action.c(100):      :  8am : Flight 0 leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <!-- Flight #1 -->\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+Action.c(100):     <b>\n
+Action.c(100):     <label><input type="checkbox" name="19" value="on" /></label></font></b>\n
+Action.c(100):     <input type="hidden" name="flightID" value="3-14-a"  />\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="45%" valign="top">\n
+Action.c(100):           <b>&nbsp;&nbsp; firstName lastName\n
+Action.c(100):      class tickets for :</b><br/>\n
+Action.c(100):           <center><table border="0" width="85%"><tr><td>\n
+Action.c(100):     outboundFlight\n
+Action.c(100):           <li><i></i>\n
+Action.c(100):           </td></tr></table></center>\n
+Action.c(100):       </TD>\n
+Action.c(100):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+Action.c(100):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+Action.c(100):           <center>\n
+Action.c(100):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+Action.c(100):               address1\n
+Action.c(100):      <br/>\n
+Action.c(100):               address2<br/>\n
+Action.c(100):               creditCard;randomMonth / randomYear<br/>\n
+Action.c(100):               <br/>\n
+Action.c(100):               Total Charge: $ 0 <BR/> (CC: x-1)\n
+Action.c(100):           </td> </tr> </table>\n
+Action.c(100):           </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="3">\n
+Action.c(100):       <b>Flight Details:</b><BR/>  <center>\n
+Action.c(100):       0\n
+Action.c(100):      :  8am : Flight 0 leaves Denver  for Denver.<br>  </center>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     \n
+Action.c(100):     <TR bgcolor="#EFF2F7">\n
+Action.c(100):       <TD COLSPAN="4">\n
+Action.c(100):       <hr/>\n
+Action.c(100):       </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     <TR>\n
+Action.c(100):        <TD align="center" COLSPAN="4">\n
+Action.c(100):        <b>A total of 19 scheduled flights.</font></b>\n
+Action.c(100):        </TD>\n
+Action.c(100):     </TR>\n
+Action.c(100):     </TABLE>\n
+Action.c(100):     \n
+Action.c(100):     <TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">\n
+Action.c(100):     <TR>\n
+Action.c(100):     <TD align="left" width="50%" >\n
+Action.c(100):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Action.c(100):     er="0" /></TD>\n
+Action.c(100):     <TD align="right" width="50%" >\n
+Action.c(100):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Action.c(100):     f" border="0" /></TD>\n
+Action.c(100):     </TABLE>\n
+Action.c(100):     \n
+Action.c(100):     <div><input type="hidden" name=".cgifields" value="11"  /><input type="hidden" name=".cgif
+Action.c(100):     ields" value="7"  /><input type="hidden" name=".cgifields" value="17"  /><input type="hidd
+Action.c(100):     en" name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" value="1"  /><in
+Action.c(100):     put type="hidden" name=".cgifields" value="18"  /><input type="hidden" name=".cgifields" v
+Action.c(100):     alue="16"  /><input type="hidden" name=".cgifields" value="13"  /><input type="hidden" nam
+Action.c(100):     e=".cgifields" value="6"  /><input type="hidden" name=".cgifields" value="3"  /><input typ
+Action.c(100):     e="hidden" name=".cgifields" value="9"  /><input type="hidden" name=".cgifields" value="12
+Action.c(100):     "  /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgif
+Action.c(100):     ields" value="15"  /><input type="hidden" name=".cgifields" value="8"  /><input type="hidd
+Action.c(100):     en" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="19"  /><i
+Action.c(100):     nput type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifields" 
+Action.c(100):     value="5"  /></div></form>\n
+Action.c(100):     \n
+Action.c(100):     </center>\n
+Action.c(100):     \n
+Action.c(100):     </body>\n
+Action.c(100):     </html>
+Action.c(100): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(100): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(100): t=5612ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=22)
+Action.c(100):     HTTP/1.1 200 OK\r\n
+Action.c(100):     Date: Sun, 20 Sep 2020 14:19:42 GMT\r\n
+Action.c(100):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(100):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(100):     ETag: "300000003b933-33f-4b654c052c2c0"\r\n
+Action.c(100):     Accept-Ranges: bytes\r\n
+Action.c(100):     Content-Length: 831\r\n
+Action.c(100):     Keep-Alive: timeout=5, max=93\r\n
+Action.c(100):     Connection: Keep-Alive\r\n
+Action.c(100):     Content-Type: image/gif\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5614ms: 831-byte response body for "http://localhost:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=22)
+Action.c(100): t=5616ms: 297-byte response headers for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=23)
+Action.c(100):     HTTP/1.1 200 OK\r\n
+Action.c(100):     Date: Sun, 20 Sep 2020 14:19:42 GMT\r\n
+Action.c(100):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(100):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+Action.c(100):     ETag: "300000003b931-2e6-4b654c052c2c0"\r\n
+Action.c(100):     Accept-Ranges: bytes\r\n
+Action.c(100):     Content-Length: 742\r\n
+Action.c(100):     Keep-Alive: timeout=5, max=94\r\n
+Action.c(100):     Connection: Keep-Alive\r\n
+Action.c(100):     Content-Type: image/gif\r\n
+Action.c(100):     \r\n
+Action.c(100): t=5617ms: 742-byte response body for "http://localhost:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=23)
+Action.c(100): Registered web_reg_find successful for "Text=Flights List" (count=1)  	[MsgId: MMSG-26364]
+Action.c(100): web_url("Itinerary Button") was successful, 28695 body bytes, 1913 header bytes, 75 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(110): Notify: Transaction "click_itinerary" ended with a "Pass" status (Duration: 0.4262 Wasted Time: 0.0960).
+Action.c(112): Notify: Transaction "logout" started.
+Action.c(114): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(114): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Action.c(114): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(118): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(118): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(122): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(122): t=5824ms: 327-byte response headers for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
+Action.c(122):     HTTP/1.1 200 OK\r\n
+Action.c(122):     Date: Sun, 20 Sep 2020 14:19:42 GMT\r\n
+Action.c(122):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(122):     Set-Cookie: MSO=SID&1600611582; path=/\r\n
+Action.c(122):     Set-Cookie: MTUserInfo=; path=/; expires=Sat, 19-Sep-2020 14:19:42 GMT\r\n
+Action.c(122):     Keep-Alive: timeout=5, max=92\r\n
+Action.c(122):     Connection: Keep-Alive\r\n
+Action.c(122):     Transfer-Encoding: chunked\r\n
+Action.c(122):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(122):     \r\n
+Action.c(122): t=5848ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
+Action.c(122):     2ae\r\n
+Action.c(122): t=5848ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
+Action.c(122):     \r\n
+Action.c(122): t=5849ms: 686-byte chunked response body for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
+Action.c(122):     <!-- \n
+Action.c(122):      A Session ID has been created and loaded into a cookie called MSO.\n
+Action.c(122):      Also, the server options have been loaded into the cookie called\n
+Action.c(122):      MSO as well.  The server options can be set via the Admin page.\n
+Action.c(122):      --->\n
+Action.c(122):     \n
+Action.c(122):     <html>\n
+Action.c(122):     <title>Web Tours</title>\n
+Action.c(122):        <!-- Frame Set -->\n
+Action.c(122):        <frameset cols="160,*" border="1" frameborder="1">\n
+Action.c(122):           <!-- Navigation Frame -->\n
+Action.c(122):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+Action.c(122):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(122):           <!-- Home Frame -->\n
+Action.c(122):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+Action.c(122):                 noresize="noresize" scrolling="auto"/>\n
+Action.c(122):        </frameset>\n
+Action.c(122):     </html>\n
+Action.c(122):     \n
+Action.c(122):     </body>\n
+Action.c(122):     </html>
+Action.c(122): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(122): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(122): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(122): t=5852ms: 1361-byte response body retrieved from cache for "http://localhost:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=26)
+Action.c(122):     <HTML>\n
+Action.c(122):     <HEAD>\n
+Action.c(122):     \t<title>Web Tours</title>\n
+Action.c(122):     </HEAD>\n
+Action.c(122):     <style>\n
+Action.c(122):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(122):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Action.c(122):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(122):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(122):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(122):     N: none}\n
+Action.c(122):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(122):     CORATION: underline}\n
+Action.c(122):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(122):     </style>\n
+Action.c(122):     <body bgcolor="#e0e7f1">\n
+Action.c(122):     <BR/>\n
+Action.c(122):     <BR/>\n
+Action.c(122):     <BR/>\n
+Action.c(122):     <br/>\n
+Action.c(122):     <table border="0">\n
+Action.c(122):     <tr><td></td></tr>\n
+Action.c(122):     <TR><TD></TD></TR>\n
+Action.c(122):     <TR><TD>\n
+Action.c(122):     <blockquote>\n
+Action.c(122):     <H1><b>Web Tours</b></H1>\n
+Action.c(122):     Welcome to the Web Tours site.\n
+Action.c(122):     <br/>\n
+Action.c(122):     To make reservations,please enter your account information to the left.\n
+Action.c(122):     <br/>\n
+Action.c(122):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+Action.c(122):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+Action.c(122):     <br/>\n
+Action.c(122):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+Action.c(122):     tration</b></A> link.\n
+Action.c(122):     <br/><br/><br/><br/><br/><br/>\n
+Action.c(122):     <br/><small>\n
+Action.c(122):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Action.c(122):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+Action.c(122):     </small>\n
+Action.c(122):     </blockquote></TD>\n
+Action.c(122):     <TD></TD></TR>\n
+Action.c(122):     </table>\n
+Action.c(122):     </body>\n
+Action.c(122):     </HTML>\n
+Action.c(122): t=5858ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=24)
+Action.c(122):     0\r\n
+Action.c(122):     \r\n
+Action.c(122): t=5960ms: 255-byte response headers for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
+Action.c(122):     HTTP/1.1 200 OK\r\n
+Action.c(122):     Date: Sun, 20 Sep 2020 14:19:42 GMT\r\n
+Action.c(122):     Server: Apache/2.2.21 (Win32)\r\n
+Action.c(122):     Expires: Sat, 19 Sep 2020 14:19:42 GMT\r\n
+Action.c(122):     Keep-Alive: timeout=5, max=93\r\n
+Action.c(122):     Connection: Keep-Alive\r\n
+Action.c(122):     Transfer-Encoding: chunked\r\n
+Action.c(122):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(122):     \r\n
+Action.c(122): t=5962ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
+Action.c(122):     5cc\r\n
+Action.c(122): t=5962ms: 2-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
+Action.c(122):     \r\n
+Action.c(122): t=5962ms: 1484-byte chunked response body for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
+Action.c(122):     <!DOCTYPE html\n
+Action.c(122):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(122):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(122):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(122):     <head>\n
+Action.c(122):     <title>Web Tours Navigation Bar</title>\n
+Action.c(122):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(122):     </head>\n
+Action.c(122):     <body bgcolor="#E0E7F1">\n
+Action.c(122):     <style>\n
+Action.c(122):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(122):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(122):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(122):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(122):     </style>\n
+Action.c(122):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+Action.c(122):     <input type="hidden" name="userSession" value="129656.669258809zzzQcVtpQcftAAVfpciQff"/>\n
+Action.c(122):     <table border="0"><tr><td>&nbsp;</td>\n
+Action.c(122):     <td>&nbsp;</td></tr>\n
+Action.c(122):     <tr><td>&nbsp;</td>\n
+Action.c(122):     <td>&nbsp;</td></tr>\n
+Action.c(122):     <tr><td>&nbsp;</td>\n
+Action.c(122):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(122):     <tr><td>&nbsp;</td>\n
+Action.c(122):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(122):     <tr><td>&nbsp;</td>\n
+Action.c(122):     <td><small>&nbsp;Password</small></td>\n
+Action.c(122):     <tr><td>&nbsp;</td>\n
+Action.c(122):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+Action.c(122):     <tr><td>&nbsp;</td>\n
+Action.c(122):     <td>&nbsp;</td></tr>\n
+Action.c(122):     <tr><td>&nbsp;</td>\n
+Action.c(122):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+Action.c(122):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+Action.c(122):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+Action.c(122):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+Action.c(122):     </form>\n
+Action.c(122):     \n
+Action.c(122):     </body>\n
+Action.c(122):     </html>\n
+Action.c(122): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(122): t=5985ms: 5-byte chunked response overhead for "http://localhost:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=25)
+Action.c(122):     0\r\n
+Action.c(122):     \r\n
+Action.c(122): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO." (count=1)  	[MsgId: MMSG-26364]
+Action.c(122): web_url("SignOff Button") was successful, 2170 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(132): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0.3644 Wasted Time: 0.0890).
+Action.c(134): Notify: Transaction "UC_02_Check_Itinerary" ended with a "Pass" status (Duration: 5.8691 Wasted Time: 0.5443).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

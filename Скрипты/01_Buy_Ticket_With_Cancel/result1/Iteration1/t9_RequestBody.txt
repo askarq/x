@@ -1,2 +1,3 @@
-"userSession=129654.895423248zzzQVcDpziDDDDDDtAAVtpHtcV&username=jojo3&password=bean3&login.x=3"
-"6&login.y=10&JSFormSubmit=off"
+"1=on&flightID=431-7840-AI&2=on&flightID=431-15582-AI&3=on&flightID=431-23275-AI&flightID=431-3"
+"0967-AI&flightID=431-38659-AI&.cgifields=4&.cgifields=1&.cgifields=3&.cgifields=2&.cgifields=5"
+"&removeFlights.x=36&removeFlights.y=8"

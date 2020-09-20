@@ -21,6 +21,7 @@
     <FileEntry Name="01_Buy_Ticket_With_Cancel.c.pickle" Filter="1" />
     <FileEntry Name="01_Buy_Ticket_With_Cancel.ci" Filter="1" />
     <FileEntry Name="01_Buy_Ticket_With_Cancel.prm.bak" Filter="1" />
+    <FileEntry Name="01_Buy_Ticket_With_Cancel.sdf" Filter="1" />
     <FileEntry Name="03_BuyTicketReload.prm.bak" Filter="1" />
     <FileEntry Name="03_BuyTicketUpdate.prm.bak" Filter="1" />
     <FileEntry Name="03_BuyTicketUpdate1.prm.bak" Filter="1" />
@@ -28,6 +29,14 @@
     <FileEntry Name="257131011440.idx" Filter="1" />
     <FileEntry Name="35030174440.idx" Filter="1" />
     <FileEntry Name="98891758440.idx" Filter="1" />
+    <FileEntry Name="9889175844_2xH.821.idx" Filter="1" />
+    <FileEntry Name="9889175844_abK.633.idx" Filter="1" />
+    <FileEntry Name="9889175844_B6W.713.idx" Filter="1" />
+    <FileEntry Name="9889175844_dnb.187.idx" Filter="1" />
+    <FileEntry Name="9889175844_fM5.507.idx" Filter="1" />
+    <FileEntry Name="9889175844_GQS.37.idx" Filter="1" />
+    <FileEntry Name="9889175844_ojd.145.idx" Filter="1" />
+    <FileEntry Name="9889175844_Q4e.231.idx" Filter="1" />
     <FileEntry Name="address2.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -37,6 +46,15 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1v9.637.log" Filter="1" />
+    <FileEntry Name="mdrvATn.907.log" Filter="1" />
+    <FileEntry Name="mdrvEEf.121.log" Filter="1" />
+    <FileEntry Name="mdrvEiZ.835.log" Filter="1" />
+    <FileEntry Name="mdrvIUw.233.log" Filter="1" />
+    <FileEntry Name="mdrvq8u.191.log" Filter="1" />
+    <FileEntry Name="mdrvScV.829.log" Filter="1" />
+    <FileEntry Name="mdrvutY.21.log" Filter="1" />
+    <FileEntry Name="mdrvYLB.709.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam_1(1).dat" Filter="1" />
     <FileEntry Name="NewParam_1(2).dat" Filter="1" />

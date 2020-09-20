@@ -73,6 +73,7 @@ cancel()
 		LAST);
 	}
 	else if(atoi(lr_eval_string("{randomCancel}")) == 2 ) {
+		
 	web_submit_form("itinerary.pl",
 		ITEMDATA,
 		"Name=1", "Value=on", ENDITEM,

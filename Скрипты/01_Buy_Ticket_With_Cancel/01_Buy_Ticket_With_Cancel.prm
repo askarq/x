@@ -169,7 +169,7 @@ Type="Random"
 [parameter:randomYear]
 Format="%lu"
 GenerateNewVal="EachIteration"
-MaxValue="25"
+MaxValue="26"
 MinValue="21"
 OriginalValue=""
 ParamName="randomYear"

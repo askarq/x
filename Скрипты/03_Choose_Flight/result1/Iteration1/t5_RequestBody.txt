@@ -1,3 +1,4 @@
-"advanceDiscount=0&depart=Denver&departDate=09%2F18%2F2020&arrive=Frankfurt&returnDate=09%2F25%"
-"2F2020&numPassengers=1&seatPref=Aisle&seatType=First&findFlights.x=56&findFlights.y=11&.cgifie"
-"lds=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"firstName=firstName&lastName=lastName&address1=address1&address2=address2&pass1=firstName+last"
+"Name&creditCard=creditCard&expDate=randomMonth+%2F+randomYear&oldCCOption=&numPassengers=1&sea"
+"tType=seatType&seatPref=seatPref&outboundFlight=outboundFlight&advanceDiscount=0&returnFlight="
+"&JSFormSubmit=off&buyFlights.x=33&buyFlights.y=11&.cgifields=saveCC"
