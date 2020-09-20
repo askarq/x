@@ -14,11 +14,20 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="01_Buy_Ticket_With_Cancel.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_01_Buy_Ticket_With_Cancel.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="01_BuyCancelTicket.prm.bak" Filter="1" />
     <FileEntry Name="01_BuyCancelTicket_test.prm.bak" Filter="1" />
+    <FileEntry Name="01_Buy_Ticket_With_Cancel.c.pickle" Filter="1" />
+    <FileEntry Name="01_Buy_Ticket_With_Cancel.ci" Filter="1" />
+    <FileEntry Name="01_Buy_Ticket_With_Cancel.prm.bak" Filter="1" />
     <FileEntry Name="03_BuyTicketReload.prm.bak" Filter="1" />
     <FileEntry Name="03_BuyTicketUpdate.prm.bak" Filter="1" />
     <FileEntry Name="03_BuyTicketUpdate1.prm.bak" Filter="1" />
+    <FileEntry Name="172329382440.idx" Filter="1" />
+    <FileEntry Name="257131011440.idx" Filter="1" />
+    <FileEntry Name="35030174440.idx" Filter="1" />
+    <FileEntry Name="98891758440.idx" Filter="1" />
     <FileEntry Name="address2.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
